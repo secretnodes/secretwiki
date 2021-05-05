@@ -6,7 +6,7 @@ order: 8
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -31,7 +31,7 @@ You can use Cloudflare Access, in combination with Cloudflare Argo Tunnel, to co
 
 The Cloudflare daemon, `cloudflared`, will maintain a secure, persistent, outbound-only connection from the machine to Cloudflare. Arbitrary TCP traffic will be proxied over this connection using [Cloudflare Argo Tunnel](https://www.cloudflare.com/products/argo-tunnel/).
 
-Follow [these instructions](https://developers.cloudflare.com/argo-tunnel/downloads/) to download and install `cloudflared` in a location that can address the Kubernetes cluster's API server.
+Follow [these instructions](https://secret.wiki/argo-tunnel/downloads/) to download and install `cloudflared` in a location that can address the Kubernetes cluster's API server.
 
 ## 2. Authenticate the Cloudflare daemon
 

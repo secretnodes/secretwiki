@@ -6,7 +6,7 @@ order: 11
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -137,4 +137,4 @@ Timeout after which an idle keepalive connection can be discarded.
 |--|--|
 | `--socks5=value` | `true` |
 
-See [kubectl](https://developers.cloudflare.com/access/other-protocols/kubectl) for example usage.
+See [kubectl](https://secret.wiki/access/other-protocols/kubectl) for example usage.

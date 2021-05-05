@@ -6,7 +6,7 @@ order: 2
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -93,7 +93,7 @@ Cloudflare Access allows you to securely publish internal tools and applications
 
 Before you begin setting up your self-hosted application, you will need an active domain on Cloudflare. Access rules will be built to secure that domain.
 
-Create Access rules before connecting your application to Cloudflare. To connect your origin to Cloudflare, you can use [Argo Tunnel](https://developers.cloudflare.com/argo-tunnel/). If you do not wish to use Argo Tunnel, you must [validate the token](/learning/json-web-tokens/) issued by Cloudflare on your origin.
+Create Access rules before connecting your application to Cloudflare. To connect your origin to Cloudflare, you can use [Argo Tunnel](https://secret.wiki/argo-tunnel/). If you do not wish to use Argo Tunnel, you must [validate the token](/learning/json-web-tokens/) issued by Cloudflare on your origin.
 
 ### 1. Add your app
 1. On the [Teams dashboard](https://dash.teams.cloudflare.com), navigate to the **Applications** tab.

@@ -20,7 +20,7 @@ You can use Cloudflare Gateway and the Cloudflare WARP client application to pre
 
 ## Before you start
 
-1. [Connect devices](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp) to Cloudflare's edge with the WARP client and [install the root certificate](/connections/connect-devices/warp/install-cloudflare-cert)
+1. [Connect devices](https://secret.wiki/cloudflare-one/connections/connect-devices/warp) to Cloudflare's edge with the WARP client and [install the root certificate](/connections/connect-devices/warp/install-cloudflare-cert)
 1. [ Enable web inspection](/connections/connect-devices/warp/control-proxy)
 
 ## Create a Gateway HTTP policy

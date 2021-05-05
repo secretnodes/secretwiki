@@ -117,7 +117,7 @@ Instead, you can:
     }
     ```
 
-4. Finally, customize your Pages project's [build command](https://developers.cloudflare.com/pages/platform/build-configuration#build-commands-and-directories) so that `npm run setup:pages` runs before your standard build command.
+4. Finally, customize your Pages project's [build command](https://secret.wiki/pages/platform/build-configuration#build-commands-and-directories) so that `npm run setup:pages` runs before your standard build command.
 
     Your final build command should look something like:
 

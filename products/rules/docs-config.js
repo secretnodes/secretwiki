@@ -19,7 +19,7 @@ module.exports = {
     title: "Cloudflare Rules docs",
     description: "Create rules that adjust incoming HTTP requests at the edge.",
     author: "@cloudflare",
-    url: "https://developers.cloudflare.com/rules",
+    url: "https://secret.wiki/rules",
     image: "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="
   }
 }

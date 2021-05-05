@@ -19,7 +19,7 @@ module.exports = {
     title: "Cloudflare Stream docs",
     description: "Store, encode, deliver, and play videos on your sites and applications.",
     author: "@cloudflare",
-    url: "https://developers.cloudflare.com/stream",
+    url: "https://secret.wiki/stream",
     image: "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="
   }
 }

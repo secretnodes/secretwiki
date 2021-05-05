@@ -63,7 +63,7 @@ New customers should give Bot Analytics a few days to gather data. You should on
 
 ### 4. Create a Firewall Rule for automated traffic
 
-Based on your analysis of **automated** traffic, create a [Firewall Rule](https://developers.cloudflare.com/firewall/cf-firewall-rules) that **challenges** scores of 1 but still allows good, automated requests. Monitor that rule for a few days to make sure you are targeting the right traffic (user agents, IP addresses, API or mobile traffic).
+Based on your analysis of **automated** traffic, create a [Firewall Rule](https://secret.wiki/firewall/cf-firewall-rules) that **challenges** scores of 1 but still allows good, automated requests. Monitor that rule for a few days to make sure you are targeting the right traffic (user agents, IP addresses, API or mobile traffic).
 
 <table style='table-layout:fixed; width:100%'>
   <thead>
@@ -82,7 +82,7 @@ Based on your analysis of **automated** traffic, create a [Firewall Rule](https:
 
 ### 5. Create additional Firewall Rules
 
-Create Firewall Rules that address **likely automated** traffic and **other traffic groups**. For suggested bot thresholds and other considerations, see our [Firewall Rules documentation](https://developers.cloudflare.com/firewall/recipes/challenge-bad-bots).
+Create Firewall Rules that address **likely automated** traffic and **other traffic groups**. For suggested bot thresholds and other considerations, see our [Firewall Rules documentation](https://secret.wiki/firewall/recipes/challenge-bad-bots).
 
 Cloudflare recommends that most customers block or challenge bot scores **below 30**, but your domain might vary:
 - If you want to minimize false positives and lost revenue — such as ecommerce domains — you might permit requests with lower bot scores to access your domain.
@@ -99,13 +99,13 @@ You can adjust your Firewall Rules at any point. Set aside time to review [Bot A
 
 ## Bot Management variables
 
-Bot Management provides access to several [new variables](https://developers.cloudflare.com/firewall/cf-firewall-language/fields#dynamic-fields) within the Firewall expression builder.
+Bot Management provides access to several [new variables](https://secret.wiki/firewall/cf-firewall-language/fields#dynamic-fields) within the Firewall expression builder.
 
 - **Bot Score**: An integer used to isolate bot requests which ranges from 1-99. Lower scores usually indicate automated traffic, while higher scores indicate human traffic. Most traffic scored below 30 comes from bots.
-- **Verified Bot**: A boolean value that is true if the request comes from a good bot, like Google or Bing. Most customers choose to allow this traffic. For more details, see [Traffic from known bots](https://developers.cloudflare.com/firewall/known-issues-and-faq#how-does-firewall-rules-handle-traffic-from-known-bots).
+- **Verified Bot**: A boolean value that is true if the request comes from a good bot, like Google or Bing. Most customers choose to allow this traffic. For more details, see [Traffic from known bots](https://secret.wiki/firewall/known-issues-and-faq#how-does-firewall-rules-handle-traffic-from-known-bots).
 - **Serves Static Resource**: An identifier that matches [file extensions](../../about/static-resources) for many types of static resources. Use this variable if you send emails that retrieve static images.
 
-These variables are also available as part of the [request.cf](https://developers.cloudflare.com/workers/reference/apis/request/#the-cf-object) object via [Cloudflare Workers](https://developers.cloudflare.com/workers/):
+These variables are also available as part of the [request.cf](https://secret.wiki/workers/reference/apis/request/#the-cf-object) object via [Cloudflare Workers](https://secret.wiki/workers/):
 
 - request.cf.botManagement.score
 - request.cf.botManagement.verifiedBot
@@ -125,7 +125,7 @@ For more details, see [Static resource protection](/about/static-resources).
 
 ### Verified bots
 
-Some automated traffic is good! To allow good bots like Google or Bing, use the **Verified Bot** field in your rules. If you see a verified bot that Cloudflare is not [currently tracking](https://developers.cloudflare.com/firewall/known-issues-and-faq#bots-currently-detected), fill out an [online application](https://docs.google.com/forms/d/e/1FAIpQLSdqYNuULEypMnp4i5pROSc-uP6x65Xub9svD27mb8JChA_-XA/viewform?usp=sf_link).
+Some automated traffic is good! To allow good bots like Google or Bing, use the **Verified Bot** field in your rules. If you see a verified bot that Cloudflare is not [currently tracking](https://secret.wiki/firewall/known-issues-and-faq#bots-currently-detected), fill out an [online application](https://docs.google.com/forms/d/e/1FAIpQLSdqYNuULEypMnp4i5pROSc-uP6x65Xub9svD27mb8JChA_-XA/viewform?usp=sf_link).
 
 ### Mobile traffic
 To treat mobile traffic differently, use the `user agent` or `IP address` fields when creating your Firewall Rules.

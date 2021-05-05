@@ -4,7 +4,7 @@ order: 3
 
 # Configure your mobile app or IoT device
 
-To configure your Internet-of-things (IoT) device and mobile application to use client certificates with [API Shield™](https://developers.cloudflare.com/firewall/cf-firewall-rules/api-shield), follow this workflow:
+To configure your Internet-of-things (IoT) device and mobile application to use client certificates with [API Shield™](https://secret.wiki/firewall/cf-firewall-rules/api-shield), follow this workflow:
 
 * [Create Cloudflare-issued certificates](#create-cloudflare-issued-certificates).
 * [Embed the certificate in your mobile app](#embed-the-client-certificate-in-your-mobile-app).
@@ -14,9 +14,9 @@ To configure your Internet-of-things (IoT) device and mobile application to use 
 
 This walkthrough uses the example of a device that captures temperature readings and transmits them by sending a POST request to a Cloudflare-protected API. A mobile application built in Swift for iOS retrieves those readings and displays them.
 
-To keep this example simple, the API is implemented as a Cloudflare Worker (borrowing code from the [To-Do List tutorial on building a jamstack app](https://developers.cloudflare.com/workers/tutorials/build-a-jamstack-app)).
+To keep this example simple, the API is implemented as a Cloudflare Worker (borrowing code from the [To-Do List tutorial on building a jamstack app](https://secret.wiki/workers/tutorials/build-a-jamstack-app)).
 
-Temperatures are stored in [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works) using the source IP address as a key, but you can easily use a [value from the client certificate](https://developers.cloudflare.com/access/service-auth/mtls-headers/), such as the fingerprint.
+Temperatures are stored in [Workers KV](https://secret.wiki/workers/learning/how-kv-works) using the source IP address as a key, but you can easily use a [value from the client certificate](https://secret.wiki/access/service-auth/mtls-headers/), such as the fingerprint.
 
 The example API code below saves a temperature and timestamp into KV when a POST is made, and returns the most recent 5 temperatures when a GET request is made.
 
@@ -342,4 +342,4 @@ For instructions, see [_Enable mutual Transport Layer Security_](/client-certifi
 
 ## Configure API Shield to require client certificates
 
-To configure API Shield to require client certificates, [create a mTLS rule](https://developers.cloudflare.com/firewall/cf-dashboard/create-mtls-rule).
+To configure API Shield to require client certificates, [create a mTLS rule](https://secret.wiki/firewall/cf-dashboard/create-mtls-rule).

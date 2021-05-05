@@ -1,5 +1,5 @@
 # Cloudflare Analytics API docs
 
-[View docs →](https://developers.cloudflare.com/analytics)
+[View docs →](https://secret.wiki/analytics)
 
-[Read contributor guidelines →](https://developers.cloudflare.com/docs-engine/contributing/content-framework)
+[Read contributor guidelines →](https://secret.wiki/docs-engine/contributing/content-framework)

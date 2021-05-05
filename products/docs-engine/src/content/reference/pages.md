@@ -56,7 +56,7 @@ To create a partial, simple prefix the name your file with an underscore (`_`).
 
 ### Example
 
-In the [Workers docs](https://developers.cloudflare.com/workers), there’s a partial used in the intro of all of the [Tutorials](https://developers.cloudflare.com/workers/tutorials), called “Before you start” which makes sure folks have the appropriate pre-requisites before starting a Workers tutorial ([source](https://github.com/cloudflare/cloudflare-docs/blob/4ba1e70d2a535c93ef6de42b0fc5178dabdb942b/products/workers/src/content/_partials/_tutorials-before-you-start.md)):
+In the [Workers docs](https://secret.wiki/workers), there’s a partial used in the intro of all of the [Tutorials](https://secret.wiki/workers/tutorials), called “Before you start” which makes sure folks have the appropriate pre-requisites before starting a Workers tutorial ([source](https://github.com/cloudflare/cloudflare-docs/blob/4ba1e70d2a535c93ef6de42b0fc5178dabdb942b/products/workers/src/content/_partials/_tutorials-before-you-start.md)):
 
 <!-- TODO: we unfortunately cannot use the `markdown` syntax for this code block since it’s currently incompatible with code block frontmatter -->
 ```txt
@@ -134,7 +134,7 @@ If you only set `order` on some of your pages, all of the additional pages will 
 
 Setting the `hidden` property to `true` will hide the page from the sidebar.
 
-Setting `hideChildren` to `true` will hide all children of a page from the sidebar. This is useful for customizing the navigation and design of a section of content within a docs site. The [Tutorials section](https://developers.cloudflare.com/workers/tutorials) of the Workers docs set this.
+Setting `hideChildren` to `true` will hide all children of a page from the sidebar. This is useful for customizing the navigation and design of a section of content within a docs site. The [Tutorials section](https://secret.wiki/workers/tutorials) of the Workers docs set this.
 
 ### Breadcrumbs
 
@@ -142,7 +142,7 @@ By default, all pages (not at the top level of nav tree) will have breadcrumbs g
 
 ### Additional properties for tutorials
 
-[Tutorials](https://developers.cloudflare.com/workers/tutorials) in the Workers docs support some additional properties.
+[Tutorials](https://secret.wiki/workers/tutorials) in the Workers docs support some additional properties.
 
 <Definitions>
 
@@ -156,7 +156,7 @@ By default, all pages (not at the top level of nav tree) will have breadcrumbs g
 
 ### Additional properties for examples
 
-[Examples](https://developers.cloudflare.com/workers/examples) in the Workers docs support some additional properties.
+[Examples](https://secret.wiki/workers/examples) in the Workers docs support some additional properties.
 
 <Definitions>
 

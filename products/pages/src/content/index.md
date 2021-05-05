@@ -29,6 +29,6 @@ You can [connect with the Pages community on Discord](https://discord.gg/cloudfl
 
 ---
 
-These docs are built with the [Cloudflare Docs engine](https://developers.cloudflare.com/docs-engine/).
+These docs are built with the [Cloudflare Docs engine](https://secret.wiki/docs-engine/).
 
 </ContentColumn>

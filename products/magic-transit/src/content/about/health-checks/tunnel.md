@@ -9,7 +9,7 @@ Tunnel health checks monitor the status of the Generic Routing Encapsulation (GR
 
 Tunnel probes originate from Cloudflare’s edge network and target the GRE tunnel endpoints you supply during the Magic Transit [onboarding process](/set-up/onboarding/).
 
-Tunnel health check results are exposed via an [API](https://developers.cloudflare.com/analytics/graphql-api/tutorials/querying-magic-transit-tunnel-healthcheck-results/). These results are aggregated from individual health check results done on Cloudflare servers.
+Tunnel health check results are exposed via an [API](https://secret.wiki/analytics/graphql-api/tutorials/querying-magic-transit-tunnel-healthcheck-results/). These results are aggregated from individual health check results done on Cloudflare servers.
 
 ## Probe construction
 

@@ -6,7 +6,7 @@ order: 50
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -14,7 +14,7 @@ We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Pl
 |---|
 | 1. [Create an Argo Tunnel](/create-tunnel) |
 | 2. [Configure the Tunnel](/configuration) |
-| 3. [Create a Load Balancer pool in Cloudflare](https://developers.cloudflare.com/load-balancing/create-load-balancer-ui) |
+| 3. [Create a Load Balancer pool in Cloudflare](https://secret.wiki/load-balancing/create-load-balancer-ui) |
 
 ## Route traffic from the dashboard
 

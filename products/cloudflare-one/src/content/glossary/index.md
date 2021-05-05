@@ -35,7 +35,7 @@ The resource being protected by Cloudflare for Teams. An application can be a su
 
 Authenticated Origin Pulls let origin web servers validate that a web request came from Cloudflare. Cloudflare uses TLS client certificate authentication, a feature supported by most web servers, to present a Cloudflare certificate when establishing a connection between Cloudflare and the origin web server.
 
-| Related products: | [Cloudflare SSL](https://developers.cloudflare.com/ssl/) |
+| Related products: | [Cloudflare SSL](https://secret.wiki/ssl/) |
 |---|---|
 
 ## cloudflared

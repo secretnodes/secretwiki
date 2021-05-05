@@ -37,13 +37,13 @@ Both the **Create Firewall** and **Edit Firewall** panels include the visual **E
 
 ### Expression Editor
 
-Advanced users will appreciate the **Expression Editor** (shown below), which trades the visual simplicity of the builder for the raw power of the [Cloudflare Firewall Rules language](https://developers.cloudflare.com/firewall/cf-firewall-language). The editor also supports advanced features, such as grouping symbols, for constructing highly sophisticated, targeted rules.
+Advanced users will appreciate the **Expression Editor** (shown below), which trades the visual simplicity of the builder for the raw power of the [Cloudflare Firewall Rules language](https://secret.wiki/firewall/cf-firewall-language). The editor also supports advanced features, such as grouping symbols, for constructing highly sophisticated, targeted rules.
 
 ![Expression Editor](../images/firewall-rules-introduction-3.png)
 
 ### Firewall Rules APIs
 
-Power users, particularly those who develop large numbers of firewall rules, can use the Cloudflare API to programmatically manage Firewall Rules (see [_Manage rules via the API_](https://developers.cloudflare.com/firewall/api)).
+Power users, particularly those who develop large numbers of firewall rules, can use the Cloudflare API to programmatically manage Firewall Rules (see [_Manage rules via the API_](https://secret.wiki/firewall/api)).
 
 ## Entitlements
 
@@ -89,7 +89,7 @@ This table outlines the Firewall Rules features and entitlements available with 
   <td>Yes</td>
 </tr>
 <tr>
-  <td>Number of <a href='https://developers.cloudflare.com/firewall/cf-firewall-rules/rules-lists'>Rules Lists</a></td>
+  <td>Number of <a href='https://secret.wiki/firewall/cf-firewall-rules/rules-lists'>Rules Lists</a></td>
   <td>1</td>
   <td>10</td>
   <td>10</td>
@@ -107,6 +107,6 @@ To get started building your own firewall rules, see [_Manage Firewall Rules in 
 
 Those eager to dive straight into the technical details can refer to these topics:
 
-* [_Common use cases_](https://developers.cloudflare.com/firewall/recipes)
-* [_Firewall Rules language_](https://developers.cloudflare.com/firewall/cf-firewall-language)
-* [_Manage rules via the APIs_](https://developers.cloudflare.com/firewall/api/)
+* [_Common use cases_](https://secret.wiki/firewall/recipes)
+* [_Firewall Rules language_](https://secret.wiki/firewall/cf-firewall-language)
+* [_Manage rules via the APIs_](https://secret.wiki/firewall/api/)

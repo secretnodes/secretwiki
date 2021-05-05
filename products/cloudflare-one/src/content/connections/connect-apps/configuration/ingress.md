@@ -62,7 +62,7 @@ ingress:
 
 ## Supported protocols
 
-In addition to HTTP, `cloudflared` supports protocols like SSH, RDP, arbitrary TCP services, and unix sockets. See a [list of supported protocols](https://developers.cloudflare.com/access/protocols-and-connections).
+In addition to HTTP, `cloudflared` supports protocols like SSH, RDP, arbitrary TCP services, and unix sockets. See a [list of supported protocols](https://secret.wiki/access/protocols-and-connections).
 
 You can also route traffic to the built-in *Hello World* test server. This is useful when you need to test your Argo Tunnel protocol.
 
@@ -303,4 +303,4 @@ Default: `""`
 This configures what type of proxy will be started. Valid options are
 
  - "" for the regular proxy
- - "socks" for a SOCKS5 proxy. See [kubectl](https://developers.cloudflare.com/access/other-protocols/kubectl) for more.
+ - "socks" for a SOCKS5 proxy. See [kubectl](https://secret.wiki/access/other-protocols/kubectl) for more.

@@ -13,7 +13,7 @@ order: 6
 
 __tl:dr;__ You write good [Markdown (MDX)](/reference/markdown), and the rest is taken care of.
 
-__Details:__ Cloudflare has a large number of teams shipping product updates often. Most of these products have [their own documentation](https://developers.cloudflare.com/docs/). Over time we’ve found that it’s especially difficult to balance two important goals:
+__Details:__ Cloudflare has a large number of teams shipping product updates often. Most of these products have [their own documentation](https://secret.wiki/docs/). Over time we’ve found that it’s especially difficult to balance two important goals:
 
 1. Content is easily managed by the product team that owns it.
 2. Docs are consistent across products, providing the _best experience for our customers_, who commonly use more than one Cloudflare product together.

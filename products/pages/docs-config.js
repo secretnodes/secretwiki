@@ -29,7 +29,7 @@ module.exports = {
     description:
       'Documentation for Cloudflare Pages, the best way to deploy your static and JAMstack sites',
     author: '@cloudflare',
-    url: 'http://developers.cloudflare.com/pages',
+    url: 'http://secret.wiki/pages',
     image:
       'https://repository-images.githubusercontent.com/253644261/3c9cd080-e25c-11ea-9db6-57a083cfdb49',
   },

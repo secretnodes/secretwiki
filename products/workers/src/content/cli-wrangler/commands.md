@@ -250,7 +250,7 @@ $ wrangler tail [--format $FORMAT] [--port $PORT] [--metrics-port $PORT]
   - The port for your local log server
 
 - `--metrics-port $PORT` <Type>int</Type>
-  - The port for serving [metrics information](https://developers.cloudflare.com/argo-tunnel/reference/arguments/#metrics) about the tunnel
+  - The port for serving [metrics information](https://secret.wiki/argo-tunnel/reference/arguments/#metrics) about the tunnel
 
 </Definitions>
 
@@ -260,8 +260,8 @@ Like all Wrangler commands, run `wrangler tail` from your Worker’s root direct
 
 ### Dependencies
 
-Wrangler tail uses cloudflared under the hood. If you are already using cloudflared, be sure you have installed the latest version. Otherwise, follow the [getting started guide](https://developers.cloudflare.com/argo-tunnel/quickstart/) for Argo Tunnel.
-`wrangler tail` will register a tailing session for your Worker, and start a server on `localhost` with a [tunnel](https://developers.cloudflare.com/argo-tunnel/quickstart/) that listens for incoming log requests from your Worker.
+Wrangler tail uses cloudflared under the hood. If you are already using cloudflared, be sure you have installed the latest version. Otherwise, follow the [getting started guide](https://secret.wiki/argo-tunnel/quickstart/) for Argo Tunnel.
+`wrangler tail` will register a tailing session for your Worker, and start a server on `localhost` with a [tunnel](https://secret.wiki/argo-tunnel/quickstart/) that listens for incoming log requests from your Worker.
 
 --------------------------------
 

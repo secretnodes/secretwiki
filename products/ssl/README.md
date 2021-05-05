@@ -1,5 +1,5 @@
 # Cloudflare SSL docs
 
-[View docs →](https://developers.cloudflare.com/ssl)
+[View docs →](https://secret.wiki/ssl)
 
-[Read contributor guidelines →](https://developers.cloudflare.com/docs-engine/contributing/content-framework)
+[Read contributor guidelines →](https://secret.wiki/docs-engine/contributing/content-framework)

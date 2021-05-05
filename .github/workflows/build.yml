@@ -52,7 +52,7 @@ jobs:
         with:
           filters: |
             developers-site:
-              - 'developers.cloudflare.com/**'
+              - 'secret.wiki/**'
             onedot:
               - 'products/1.1.1.1/**'
             access:
@@ -133,7 +133,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: "developers.cloudflare.com"
+        working-directory: "secret.wiki"
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1

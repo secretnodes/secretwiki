@@ -4,7 +4,7 @@ order: 23
 
 # Deploy rulesets via API
 
-Use the [Rulesets API](https://developers.cloudflare.com/firewall/cf-rulesets/rulesets-api) to deploy and configure rulesets at the account level or at the zone level.
+Use the [Rulesets API](https://secret.wiki/firewall/cf-rulesets/rulesets-api) to deploy and configure rulesets at the account level or at the zone level.
 
 ## Deploying Managed Rulesets
 
@@ -20,7 +20,7 @@ There are a few requirements when deploying Managed Rulesets to the `http_reques
 
 </Aside>
 
-To learn more about deploying Managed Rulesets and configuring overrides using the Rulesets API, see [Work with Managed Rulesets](https://developers.cloudflare.com/firewall/cf-rulesets/managed-rulesets).
+To learn more about deploying Managed Rulesets and configuring overrides using the Rulesets API, see [Work with Managed Rulesets](https://secret.wiki/firewall/cf-rulesets/managed-rulesets).
 
 ## Deploying custom rulesets
 
@@ -32,4 +32,4 @@ Currently, you can only deploy custom rulesets to a Phase at the account level.
 
 </Aside>
 
-To learn more about creating and deploying custom rulesets using the Rulesets API, see [Work with custom rulesets](https://developers.cloudflare.com/firewall/cf-rulesets/custom-rulesets).
+To learn more about creating and deploying custom rulesets using the Rulesets API, see [Work with custom rulesets](https://secret.wiki/firewall/cf-rulesets/custom-rulesets).

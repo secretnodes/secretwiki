@@ -28,7 +28,7 @@ Note in this example that the first and last `"` characters in `"token-type=\"JW
 
 Since the evaluation of expressions using string values is case-sensitive, consider writing more than one simple expression to capture variants.
 
-Cloudflare Business and Enterprise customer plans have access to the `matches` [comparison operator](https://developers.cloudflare.com/firewall/cf-firewall-language/operators/#comparison-operators) which supports regular expressions, so that you can capture multiple variants of a value with a single expression.
+Cloudflare Business and Enterprise customer plans have access to the `matches` [comparison operator](https://secret.wiki/firewall/cf-firewall-language/operators/#comparison-operators) which supports regular expressions, so that you can capture multiple variants of a value with a single expression.
 
 ## Boolean values
 
@@ -56,4 +56,4 @@ To refer to a Rules List in a firewall rules expression, use _$<list_name>_ and 
 (ip.src in $office_network)
 ```
 
-Note that names for Rules Lists can only include lowercase letters, numbers and the underscore (`_`) character. For guidance on creating and managing lists, see [_Use Rules Lists: Manage Lists_](https://developers.cloudflare.com/firewall/cf-dashboard/rules-lists/manage-lists).
+Note that names for Rules Lists can only include lowercase letters, numbers and the underscore (`_`) character. For guidance on creating and managing lists, see [_Use Rules Lists: Manage Lists_](https://secret.wiki/firewall/cf-dashboard/rules-lists/manage-lists).

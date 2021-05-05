@@ -8,7 +8,7 @@ order: 50
 |---|
 | 1. [Create an Argo Tunnel](/connections/connect-apps/create-tunnel) |
 | 2. [Configure the Tunnel](/connections/connect-apps/configuration) |
-| 3. [Create a Load Balancer pool in Cloudflare](https://developers.cloudflare.com/load-balancing/create-load-balancer-ui) |
+| 3. [Create a Load Balancer pool in Cloudflare](https://secret.wiki/load-balancing/create-load-balancer-ui) |
 
 ## Route traffic from the dashboard
 
@@ -36,4 +36,4 @@ $ cloudflared tunnel route lb <tunnel ID or NAME> <load balancer name> <load bal
 
 ## Optional: Configure additional Cloudflare settings
 
-The application will default to the Cloudflare settings of the hostname in your account that includes the Argo Tunnel Load Balancer records, including [cache rules](https://support.cloudflare.com/hc/en-us/articles/202775670-Customizing-Cloudflare-s-cache) and [firewall policies](https://developers.cloudflare.com/firewall/). You can changes these settings for your hostname in Cloudflare's dashboard.
+The application will default to the Cloudflare settings of the hostname in your account that includes the Argo Tunnel Load Balancer records, including [cache rules](https://support.cloudflare.com/hc/en-us/articles/202775670-Customizing-Cloudflare-s-cache) and [firewall policies](https://secret.wiki/firewall/). You can changes these settings for your hostname in Cloudflare's dashboard.

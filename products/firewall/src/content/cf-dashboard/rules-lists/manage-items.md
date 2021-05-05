@@ -47,7 +47,7 @@ You can use uppercase or lowercase characters for IPv6 addresses in lists. Howev
 
 To add items to a Firewall Rules list, follow these steps:
 
-1. [Access the Lists interface](https://developers.cloudflare.com/firewall/cf-dashboard/rules-lists/) in the **Configurations > Lists** page of your Cloudflare account.
+1. [Access the Lists interface](https://secret.wiki/firewall/cf-dashboard/rules-lists/) in the **Configurations > Lists** page of your Cloudflare account.
 
 1. Click the **Edit** button associated with the list that you want to edit.
 

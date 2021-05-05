@@ -31,7 +31,7 @@ Currently, you can only create and deploy custom rulesets via API.
 
 ## Available Phases
 
-The Web Application Firewall provides the following [Phases](https://developers.cloudflare.com/firewall/cf-rulesets#phases) where you can deploy WAF rules:
+The Web Application Firewall provides the following [Phases](https://secret.wiki/firewall/cf-rulesets#phases) where you can deploy WAF rules:
 
 * `http_request_firewall_custom`
 * `http_request_firewall_managed`
@@ -67,7 +67,7 @@ Currently, creating and deploying custom rulesets is only available via API.
 
 </Aside>
 
-To learn more about Phases, see [Phases](https://developers.cloudflare.com/firewall/cf-rulesets#phases) in the Ruleset Engine documentation.
+To learn more about Phases, see [Phases](https://secret.wiki/firewall/cf-rulesets#phases) in the Ruleset Engine documentation.
 
 
 ## Get started
@@ -76,6 +76,6 @@ To configure Managed Rulesets using the Cloudflare dashboard, check [Deploy Mana
 
 You can also use the Rulesets API to deploy rulesets to the available Phases:
 
-* Deploy Managed Rulesets to the `http_request_firewall_managed` Phase. See [Work with Managed Rulesets](https://developers.cloudflare.com/firewall/cf-rulesets/managed-rulesets).
-* Create and deploy custom rulesets to the `http_request_firewall_custom` Phase. See [Work with custom rulesets](https://developers.cloudflare.com/firewall/cf-rulesets/custom-rulesets).
+* Deploy Managed Rulesets to the `http_request_firewall_managed` Phase. See [Work with Managed Rulesets](https://secret.wiki/firewall/cf-rulesets/managed-rulesets).
+* Create and deploy custom rulesets to the `http_request_firewall_custom` Phase. See [Work with custom rulesets](https://secret.wiki/firewall/cf-rulesets/custom-rulesets).
 

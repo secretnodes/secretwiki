@@ -1,5 +1,5 @@
 # Cloudflare Network Interconnect docs
 
-[View docs →](https://developers.cloudflare.com/network-interconnect)
+[View docs →](https://secret.wiki/network-interconnect)
 
-[Read contributor guidelines →](https://developers.cloudflare.com/docs-engine/contributing/content-framework)
+[Read contributor guidelines →](https://secret.wiki/docs-engine/contributing/content-framework)

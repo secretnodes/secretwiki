@@ -6,7 +6,7 @@ order: 20
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -68,7 +68,7 @@ ingress:
 
 ## Supported protocols
 
-In addition to HTTP, `cloudflared` supports protocols like SSH, RDP, arbitrary TCP services, and unix sockets. See a [list of supported protocols](https://developers.cloudflare.com/access/protocols-and-connections).
+In addition to HTTP, `cloudflared` supports protocols like SSH, RDP, arbitrary TCP services, and unix sockets. See a [list of supported protocols](https://secret.wiki/access/protocols-and-connections).
 
 You can also route traffic to the built-in *Hello World* test server. This is useful when you need to test your Argo Tunnel protocol.
 
@@ -96,7 +96,7 @@ With the catch-all rule, you can set `cloudflared` to respond to traffic with an
 |--|--|--|--|
 | HTTP/S | Incoming HTTP requests are proxied directly to your local service | `https://localhost:8000` |
 | HTTP/S over unix socket | Just like HTTP/S, but using a unix socket instead | `unix:/home/production/echo.sock` |
-| TCP, RDP, SSH, SMB, kubectl to a single address | TCP requests are proxied to your local service. [Learn more](https://developers.cloudflare.com/access/protocols-and-connections). | `ssh://localhost:2222` |
+| TCP, RDP, SSH, SMB, kubectl to a single address | TCP requests are proxied to your local service. [Learn more](https://secret.wiki/access/protocols-and-connections). | `ssh://localhost:2222` |
 | TCP, RDP, SSH, SMB, kubectl bastion mode | `cloudflared` will act like a jumphost, allowing access to any local address. | `bastion` |
 | Hello World | Test server for validating your Argo Tunnel setup | `hello_world` |
 | HTTP status | Responds to all requests with the given HTTP status | `http_status:404` |
@@ -309,4 +309,4 @@ Default: `""`
 This configures what type of proxy will be started. Valid options are
 
  - "" for the regular proxy
- - "socks" for a SOCKS5 proxy. See [kubectl](https://developers.cloudflare.com/access/other-protocols/kubectl) for more.
+ - "socks" for a SOCKS5 proxy. See [kubectl](https://secret.wiki/access/other-protocols/kubectl) for more.

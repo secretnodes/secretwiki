@@ -8,7 +8,7 @@ order: 100
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -16,7 +16,7 @@ We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Pl
 
 You can use a combination of Tunnel and Access to lock down an internal application without the use of a VPN.
 
-First, before creating a tunnel to your application, [create an Access policy](https://developers.cloudflare.com/access/setting-up-access/) for the application. You can do this in the [Access tab of the Cloudflare dashboard](https://dash.cloudflare.com/?zone=access).
+First, before creating a tunnel to your application, [create an Access policy](https://secret.wiki/access/setting-up-access/) for the application. You can do this in the [Access tab of the Cloudflare dashboard](https://dash.cloudflare.com/?zone=access).
 
 Now you can start a tunnel on the web server to expose the application through the internet behind Cloudflare. The Access policy you created in the previous step will require any visitors to authenticate before they reach the application. Because the server is running behind Tunnel and all ports are closed on your server, you are guaranteed that any visitors to the application have passed through Cloudflare and authenticated with Access.
 

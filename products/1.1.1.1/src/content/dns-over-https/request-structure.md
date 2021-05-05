@@ -12,7 +12,7 @@ Cloudflare offers a DNS over HTTPS resolver at:
 https://cloudflare-dns.com/dns-query
 ```
 
-See curl examples for [UDP wireformat](https://developers.cloudflare.com/1.1.1.1/dns-over-https/wireformat/) and [JSON](https://developers.cloudflare.com/1.1.1.1/dns-over-https/json-format/).
+See curl examples for [UDP wireformat](https://secret.wiki/1.1.1.1/dns-over-https/wireformat/) and [JSON](https://secret.wiki/1.1.1.1/dns-over-https/json-format/).
 
 ## HTTP method
 
@@ -24,7 +24,7 @@ When making requests using GET, the DNS query is encoded into the URL. An additi
 
 ## Wireformat and JSON options
 
-Both [UDP wireformat](https://developers.cloudflare.com/1.1.1.1/dns-over-https/wireformat/) and [JSON](https://developers.cloudflare.com/1.1.1.1/dns-over-https/json-format/) formats are supported.
+Both [UDP wireformat](https://secret.wiki/1.1.1.1/dns-over-https/wireformat/) and [JSON](https://secret.wiki/1.1.1.1/dns-over-https/json-format/) formats are supported.
 
 ## Valid MIME types
 

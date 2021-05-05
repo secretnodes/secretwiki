@@ -46,7 +46,7 @@ async function handleEvent(event) {
     if (response) return response
 
     const analyticsResp = await analytics(event, {
-      allowList: ['developers.cloudflare.com'],
+      allowList: ['secret.wiki'],
     })
     if (analyticsResp) return analyticsResp
 

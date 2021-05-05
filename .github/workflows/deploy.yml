@@ -54,7 +54,7 @@ jobs:
         with:
           filters: |
             developers-site:
-              - 'developers.cloudflare.com/**'
+              - 'secret.wiki/**'
             onedot:
               - 'products/1.1.1.1/**'
             access:
@@ -135,7 +135,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: "developers.cloudflare.com"
+        working-directory: "secret.wiki"
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -150,13 +150,13 @@ jobs:
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
-          workingDirectory: "developers.cloudflare.com"
+          workingDirectory: "secret.wiki"
           wranglerVersion: '1.13.0'
       - name: Publish production
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
-          workingDirectory: "developers.cloudflare.com"
+          workingDirectory: "secret.wiki"
           environment: "production"
           wranglerVersion: '1.13.0'
 

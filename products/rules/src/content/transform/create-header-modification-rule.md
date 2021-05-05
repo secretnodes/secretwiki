@@ -29,7 +29,7 @@ Do the following:
 
 1. In the page that displays, enter a descriptive name for the URL Rewrite Rule in **Rule name**.
 
-1. Under **When incoming requests match**, define the [rule expression](https://developers.cloudflare.com/firewall/cf-dashboard/create-edit-delete-rules#expression-builder-and-editor).
+1. Under **When incoming requests match**, define the [rule expression](https://secret.wiki/firewall/cf-dashboard/create-edit-delete-rules#expression-builder-and-editor).
 
     <Aside type='note'>
 
@@ -108,4 +108,4 @@ During the Beta, the available fields when setting an HTTP request header value 
 * `ip.geoip.*`
 * `ssl`
 
-Expressions that define HTTP request header values can include functions. For more information, check [Functions](https://developers.cloudflare.com/firewall/cf-firewall-language/functions) in the Firewall documentation.
+Expressions that define HTTP request header values can include functions. For more information, check [Functions](https://secret.wiki/firewall/cf-firewall-language/functions) in the Firewall documentation.

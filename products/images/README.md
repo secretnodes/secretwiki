@@ -1,5 +1,5 @@
 # Cloudflare Image Resizing docs
 
-[View docs →](https://developers.cloudflare.com/images)
+[View docs →](https://secret.wiki/images)
 
-[Read contributor guidelines →](https://developers.cloudflare.com/docs-engine/contributing/content-framework)
+[Read contributor guidelines →](https://secret.wiki/docs-engine/contributing/content-framework)

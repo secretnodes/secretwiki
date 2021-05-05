@@ -1,12 +1,12 @@
 # Require a valid client certificate
 
-Use Cloudflare [API Shield™](https://developers.cloudflare.com/firewall/cf-firewall-rules/api-shield) to protect your API or web application with client-certificate-based encryption.
+Use Cloudflare [API Shield™](https://secret.wiki/firewall/cf-firewall-rules/api-shield) to protect your API or web application with client-certificate-based encryption.
 
 Before you can use API Shield to protect your API or web application, you must do the following:
 
-- [Create a client certificate](https://developers.cloudflare.com/ssl/client-certificates/create-a-client-certificate).
-- [Configure your mobile app or Internet-of-things device](https://developers.cloudflare.com/ssl/client-certificates/configure-your-mobile-app-or-iot-device) to use the client certificate.
-- [Enable mutual Transport Layer Security (mTLS) for a host](https://developers.cloudflare.com/ssl/client-certificates/enable-mtls) in your zone.
+- [Create a client certificate](https://secret.wiki/ssl/client-certificates/create-a-client-certificate).
+- [Configure your mobile app or Internet-of-things device](https://secret.wiki/ssl/client-certificates/configure-your-mobile-app-or-iot-device) to use the client certificate.
+- [Enable mutual Transport Layer Security (mTLS) for a host](https://secret.wiki/ssl/client-certificates/enable-mtls) in your zone.
 
 <Aside type='warning' header='Important'>
 

@@ -97,7 +97,7 @@ Many of the other fields are self-explanatory. See [Configuration](/reference/co
 
 Each docs site is deployed as a [Workers Sites project](https://workers.cloudflare.com/sites) via a [Wrangler GitHub Action](https://github.com/cloudflare/wrangler-action).
 
-To set this up, you’ll need to [configure your `wrangler.toml`](https://developers.cloudflare.com/workers/cli-wrangler/configuration#keys) file just as you would any other [Workers Sites project](https://developers.cloudflare.com/workers/platform/sites/).
+To set this up, you’ll need to [configure your `wrangler.toml`](https://secret.wiki/workers/cli-wrangler/configuration#keys) file just as you would any other [Workers Sites project](https://secret.wiki/workers/platform/sites/).
 
 Since the Docs Engine builds your site inside a hidden `.docs` folder, you’ll need to set your `bucket` and `entry-point` appropriately with the `.docs/` prefix.
 

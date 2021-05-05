@@ -31,7 +31,7 @@ Before you begin, you'll need to follow [these instructions](/setup) to set up C
 
 ## Integrate Okta
 
-Follow [these instructions](https://developers.cloudflare.com/access/authentication/configuring-identity-providers/okta) to integrate Okta with your Cloudflare Access account.
+Follow [these instructions](https://secret.wiki/access/authentication/configuring-identity-providers/okta) to integrate Okta with your Cloudflare Access account.
 
 ## Configure Okta for U2F
 

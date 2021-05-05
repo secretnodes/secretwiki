@@ -12,6 +12,6 @@ The Cloudflare WARP Client allows individuals or organizations to have a faster,
 * **For Everyone** the WARP Client allows anyone access to a faster and safer internet.
 
 <ButtonGroup>
-  <Button type="primary" href="https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp">For Teams</Button>
+  <Button type="primary" href="https://secret.wiki/cloudflare-one/connections/connect-devices/warp">For Teams</Button>
   <Button type="primary" href="/overview">For Everyone</Button>
 </ButtonGroup>

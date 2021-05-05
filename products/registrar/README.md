@@ -1,5 +1,5 @@
 # Cloudflare Registrar docs
 
-[View docs →](https://developers.cloudflare.com/registrar)
+[View docs →](https://secret.wiki/registrar)
 
-[Read contributor guidelines →](https://developers.cloudflare.com/docs-engine/contributing/content-framework)
+[Read contributor guidelines →](https://secret.wiki/docs-engine/contributing/content-framework)

@@ -1,5 +1,5 @@
 # Cloudflare Waiting Room docs
 
-[View docs →](https://developers.cloudflare.com/waiting-room)
+[View docs →](https://secret.wiki/waiting-room)
 
-[Read contributor guidelines →](https://developers.cloudflare.com/docs-engine/contributing/content-framework)
+[Read contributor guidelines →](https://secret.wiki/docs-engine/contributing/content-framework)

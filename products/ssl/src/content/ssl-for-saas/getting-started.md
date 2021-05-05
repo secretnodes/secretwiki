@@ -31,8 +31,8 @@ $ curl -XPUT
 ## Certificate Validation vs Hostname Verification
 Each Custom Hostname requires successful Certificate Validation and Hostname Verification.
 
-* __[Certificate Validation](https://developers.cloudflare.com/ssl/ssl-for-saas/certificate-validation-methods/)__: Upon successful validation, the certificates are deployed to Cloudflare’s edge network.
-* __[Hostname Verification](https://developers.cloudflare.com/ssl/ssl-for-saas/hostname-verification/)__: Upon successful validation, Cloudflare proxies traffic for this hostname.
+* __[Certificate Validation](https://secret.wiki/ssl/ssl-for-saas/certificate-validation-methods/)__: Upon successful validation, the certificates are deployed to Cloudflare’s edge network.
+* __[Hostname Verification](https://secret.wiki/ssl/ssl-for-saas/hostname-verification/)__: Upon successful validation, Cloudflare proxies traffic for this hostname.
 
 [Create Custom Hostnames via the custom_hostnames API endpoint](https://api.cloudflare.com/#custom-hostname-for-a-zone-create-custom-hostname).
 

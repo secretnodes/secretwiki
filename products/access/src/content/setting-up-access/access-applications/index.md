@@ -8,7 +8,7 @@ hidden: true
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -34,7 +34,7 @@ To fully secure your application, you must ensure that no one can access your or
 
 The instructions below provide options for locking down the infrastructure secured by Cloudflare Access.
 
-1. **Set up Argo Tunnel**. To defend against attackers addressing IPs directly, Argo Tunnel can help secure the interface and force outbound requests through Cloudflare Access. With Argo Tunnel, and firewall rules preventing inbound traffic, no request can reach those IPs without first hitting Cloudflare, where Access can evaluate the request for authentication. For details see _[Getting started](https://developers.cloudflare.com/argo-tunnel/quickstart/)_ in the Argo Tunnel developers documentation.
+1. **Set up Argo Tunnel**. To defend against attackers addressing IPs directly, Argo Tunnel can help secure the interface and force outbound requests through Cloudflare Access. With Argo Tunnel, and firewall rules preventing inbound traffic, no request can reach those IPs without first hitting Cloudflare, where Access can evaluate the request for authentication. For details see _[Getting started](https://secret.wiki/argo-tunnel/quickstart/)_ in the Argo Tunnel developers documentation.
 
 2. **Validate JSON web tokens (JWTs)**. You can use the JWT created by Cloudflare Access to validate requests on your origin. For more, see [_Validating JSON web tokens_](/setting-up-access/validate-jwt-tokens/).
 

@@ -16,7 +16,7 @@ Cloudflare documentation should be practical and approachable.
 
 ## Writing technical reference
 
-When writing documentation as part of a technical reference (e.g. [runtime API](https://developers.cloudflare.com/workers/runtime-apis) doc), follow these additional guidelines ([from Divio](https://documentation.divio.com/reference/#reference)):
+When writing documentation as part of a technical reference (e.g. [runtime API](https://secret.wiki/workers/runtime-apis) doc), follow these additional guidelines ([from Divio](https://documentation.divio.com/reference/#reference)):
 
 - **Structure the documentation around the codebase.** When documenting a set of APIs, for example, name and organize the files to match the codebase’s naming and folder structure. This helps ensure consistency when communicating with users, who may see and interact with codebase, and helps maintainers see where documentation is missing or needs to be updated.
 

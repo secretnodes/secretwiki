@@ -6,7 +6,7 @@ order: 24
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -24,7 +24,7 @@ You can connect a Windows server to Cloudflare using Argo Tunnel. Alternatively,
 
 The Cloudflare daemon, `cloudflared`, will maintain a secure, persistent, outbound-only connection from the machine to Cloudflare.
 
-Follow [these instructions](https://developers.cloudflare.com/argo-tunnel/downloads/) to download and install `cloudflared` on the machine hosting the Windows server. Select the version depending on your architecture, 64-bit or 32-bit.
+Follow [these instructions](https://secret.wiki/argo-tunnel/downloads/) to download and install `cloudflared` on the machine hosting the Windows server. Select the version depending on your architecture, 64-bit or 32-bit.
 
 Place the `cloudflared` executable in a location accessible to the OS, for example:
 

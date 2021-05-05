@@ -23,7 +23,7 @@ module.exports = {
     title: "The Life of a Cloudflare Request docs",
     description: "Undersea cables, peering agreements and TLS handshakes. Follow the life of a request across the internet and see how it all works.",
     author: "@cloudflare",
-    url: "https://developers.cloudflare.com/fundamentals",
+    url: "https://secret.wiki/fundamentals",
     image: "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="
   }
 }

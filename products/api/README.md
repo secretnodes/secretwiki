@@ -1,5 +1,5 @@
 # Cloudflare API docs
 
-[View docs →](https://developers.cloudflare.com/api)
+[View docs →](https://secret.wiki/api)
 
-[Read contributor guidelines →](https://developers.cloudflare.com/docs-engine/contributing/content-framework)
+[Read contributor guidelines →](https://secret.wiki/docs-engine/contributing/content-framework)

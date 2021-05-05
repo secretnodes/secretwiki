@@ -1,5 +1,5 @@
 # Cloudflare Gateway docs
 
-[View docs →](https://developers.cloudflare.com/gateway)
+[View docs →](https://secret.wiki/gateway)
 
-[Read contributor guidelines →](https://developers.cloudflare.com/docs-engine/contributing/content-framework)
+[Read contributor guidelines →](https://secret.wiki/docs-engine/contributing/content-framework)

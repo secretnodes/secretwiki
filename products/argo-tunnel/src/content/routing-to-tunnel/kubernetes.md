@@ -6,7 +6,7 @@ order: 40
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -16,7 +16,7 @@ Both options rely on Cloudflare's Load Balancer to send traffic for a single hos
 
 | Before you start |
 |---|
-| 1. [Enable Cloudflare Load Balancers](https://developers.cloudflare.com/load-balancing/create-load-balancer-ui)  |
+| 1. [Enable Cloudflare Load Balancers](https://secret.wiki/load-balancing/create-load-balancer-ui)  |
 | 2. [Create a Tunnel](/create-tunnel) |
 
 ## Deploy `cloudflared` to an upstream service

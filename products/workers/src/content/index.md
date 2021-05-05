@@ -67,6 +67,6 @@ You can [connect with the Workers community on Discord](https://discord.gg/cloud
 
 --------------------------------
 
-These docs are built with the [Cloudflare Docs Engine](https://developers.cloudflare.com/docs-engine/).
+These docs are built with the [Cloudflare Docs Engine](https://secret.wiki/docs-engine/).
 
 </ContentColumn>

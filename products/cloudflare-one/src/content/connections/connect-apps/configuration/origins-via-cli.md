@@ -132,4 +132,4 @@ Timeout after which an idle keepalive connection can be discarded.
 |--|--|
 | `--socks5=value` | `true` |
 
-See [kubectl](https://developers.cloudflare.com/access/other-protocols/kubectl) for example usage.
+See [kubectl](https://secret.wiki/access/other-protocols/kubectl) for example usage.

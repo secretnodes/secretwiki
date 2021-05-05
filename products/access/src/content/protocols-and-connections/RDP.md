@@ -6,7 +6,7 @@ order: 4
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -37,7 +37,7 @@ This section will cover:
 
 ### 1. Install cloudflared On The Remote Machine
 
-`cloudflared` will maintain a secure, persistent, outbound-only connection from the machine to Cloudflare. RDP traffic will be proxied over this connection using [Cloudflare Argo Tunnel](https://developers.cloudflare.com/argo-tunnel/).
+`cloudflared` will maintain a secure, persistent, outbound-only connection from the machine to Cloudflare. RDP traffic will be proxied over this connection using [Cloudflare Argo Tunnel](https://secret.wiki/argo-tunnel/).
 1. Download and install `cloudflared` on the machine hosting the file share. If you need help, you can find the relevant instructions for your OS here.
 
 2. Select the version depending on your architecture, 64-bit or 32-bit.

@@ -125,7 +125,7 @@ Navigate to the `Policies` page of the Gateway section in the Cloudflare for Tea
 
 ## Connect via WARP
 
-Users can now connect over this private network by [enrolling their devices into the WARP agent](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp) in the same account as the Argo Tunnel configuration. They must use the `Gateway with WARP` mode. A specific tutorial for enrollment is also [available](https://developers.cloudflare.com/cloudflare-one/tutorials/block-football-users).
+Users can now connect over this private network by [enrolling their devices into the WARP agent](https://secret.wiki/cloudflare-one/connections/connect-devices/warp) in the same account as the Argo Tunnel configuration. They must use the `Gateway with WARP` mode. A specific tutorial for enrollment is also [available](https://secret.wiki/cloudflare-one/tutorials/block-football-users).
 
 Once enrolled, they will be able to connect to the private IPs configured for HTTP traffic in this example or arbitrary TCP traffic.
 

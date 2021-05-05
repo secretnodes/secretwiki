@@ -1,5 +1,5 @@
 # The Life of a Cloudflare Request docs
 
-[View docs →](https://developers.cloudflare.com/fundamentals)
+[View docs →](https://secret.wiki/fundamentals)
 
-[Read contributor guidelines →](https://developers.cloudflare.com/docs-engine/contributing/content-framework)
+[Read contributor guidelines →](https://secret.wiki/docs-engine/contributing/content-framework)

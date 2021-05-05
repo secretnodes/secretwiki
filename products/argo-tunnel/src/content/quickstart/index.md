@@ -7,7 +7,7 @@ hidden: true
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -87,7 +87,7 @@ $ cloudflared --hostname [hostname] --hello-world
 INFO[0000] Build info: {GoOS:darwin GoVersion:go1.11.1 GoArch:amd64}
 INFO[0000] Version 2019.2.1
 INFO[0000] Flags map[hostname:test.warptunnels.org no-autoupdate:true grace-period:10s hello-world:true]
-INFO[0000] cloudflared will not automatically update when run from the shell. To enable auto-updates, run cloudflared as a service: https://developers.cloudflare.com/argo-tunnel/reference/service/
+INFO[0000] cloudflared will not automatically update when run from the shell. To enable auto-updates, run cloudflared as a service: https://secret.wiki/argo-tunnel/reference/service/
 INFO[0000] Starting metrics server                       addr="127.0.0.1:51245"
 INFO[0000] Starting Hello World server at 127.0.0.1:51246
 INFO[0000] Proxying tunnel requests to https://127.0.0.1:51246

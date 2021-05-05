@@ -11,4 +11,4 @@ This section is only required if you are using a mobile device management tool t
 
 Deploying the Cloudflare WARP client to support your Cloudflare for Teams configuration supports manual installs, simple deployment scripts, or advanced enterprise management tools, such as Microsoft Intune or Jamf.
 
-See https://developers.cloudflare.com/warp-client/warp-for-teams/teams for more information.
+See https://secret.wiki/warp-client/warp-for-teams/teams for more information.

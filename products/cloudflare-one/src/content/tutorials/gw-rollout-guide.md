@@ -16,7 +16,7 @@ In both modes, Cloudflare Gateway filters traffic based on rules that you config
 
 Cloudflare recommends a phased deployment of Cloudflare Gateway that begins with DNS filtering for networks, extends DNS filtering to roaming devices with the WARP agent, and then uses the WARP agent and a certificate provided by Cloudflare to inspect and filter HTTP traffic.
 
-This guide walks through an end-to-end Gateway deployment that includes both modes. [Additional tutorials](https://developers.cloudflare.com/cloudflare-one/tutorials) are available for specific use cases.
+This guide walks through an end-to-end Gateway deployment that includes both modes. [Additional tutorials](https://secret.wiki/cloudflare-one/tutorials) are available for specific use cases.
 
 **🗺️ This tutorial covers how to:**
 

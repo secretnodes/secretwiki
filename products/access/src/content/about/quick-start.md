@@ -7,7 +7,7 @@ hidden: true
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -35,7 +35,7 @@ Access supports providers that are maintained by your team, like Okta, G Suite, 
 ![Access Generic](../static/apps/build-rule.png)
 
 ## 4. Connect your application or infrastructure to Cloudflare
-* Regardless of whether applications run on-premise or hosted in a cloud provider, you can connect your infrastructure to Cloudflare with [Cloudflare Argo Tunnel](https://developers.cloudflare.com/argo-tunnel/quickstart/).
+* Regardless of whether applications run on-premise or hosted in a cloud provider, you can connect your infrastructure to Cloudflare with [Cloudflare Argo Tunnel](https://secret.wiki/argo-tunnel/quickstart/).
 * Argo Tunnel runs a lightweight daemon on your origin server or machine that establishes an outbound-only connection between that resource and the Cloudflare network.
 * Argo Tunnel will also register DNS records for your application. For example, if you build a policy in `Step 3` that secures `jira.internal.com`, Argo Tunnel can create the DNS record that will proxy requests to that application through Cloudflare.
 

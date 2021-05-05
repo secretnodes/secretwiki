@@ -236,7 +236,7 @@ You may not see analytics on the Overview page for the following reasons:
 If your Cloudflare account has Universal SSL enabled and the SSL/TLS encryption mode is set to Off, cloudflared will return a "websocket: bad handshake" error. To resolve, set the SSL/TLS encryption mode to any setting other than Off.
 
 ### ​I see a "No Browsers Available" alert.
-If you encounter this error please [file feedback](https://developers.cloudflare.com/cloudflare-one/connections/connect-browsers/known-limitations#submitting-feedback) via the WARP client and we will investigate.
+If you encounter this error please [file feedback](https://secret.wiki/cloudflare-one/connections/connect-browsers/known-limitations#submitting-feedback) via the WARP client and we will investigate.
 
 ### ​I see a "Maximum Sessions Reached" alert.
 This can occur if your device is attempting to establish a connection to more than two remote browser instances.

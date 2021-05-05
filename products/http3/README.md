@@ -1,5 +1,5 @@
 # Cloudflare HTTP3 docs
 
-[View docs →](https://developers.cloudflare.com/http3)
+[View docs →](https://secret.wiki/http3)
 
-[Read contributor guidelines →](https://developers.cloudflare.com/docs-engine/contributing/content-framework)
+[Read contributor guidelines →](https://secret.wiki/docs-engine/contributing/content-framework)

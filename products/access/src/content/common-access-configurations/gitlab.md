@@ -6,7 +6,7 @@ order: 3
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -80,7 +80,7 @@ Will establish the Tunnel for SSH connections.
 
 End users can visit the web application address without any agent required. They will be prompted to login based on the Access policy configured previously.
 
-For SSH connections, the end user needs to install `cloudflared`. Users can follow [these instructions](https://developers.cloudflare.com/argo-tunnel/downloads/) to download the appropriate version for their OS.
+For SSH connections, the end user needs to install `cloudflared`. Users can follow [these instructions](https://secret.wiki/argo-tunnel/downloads/) to download the appropriate version for their OS.
 
 Once installed, end users can then run the following command to print settings that will need to be added to their SSH configuration file.
 

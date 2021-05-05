@@ -6,7 +6,7 @@ order: 12
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -29,7 +29,7 @@ Argo Tunnel is free with the purchase of Argo Smart Routing. Argo Smart Routing 
 Before setting up Argo Tunnel, be sure you have the following:
 
 * A [Cloudflare account](https://dash.cloudflare.com/login)
-* The [`cloudflared` daemon](https://developers.cloudflare.com/argo-tunnel/downloads/)
+* The [`cloudflared` daemon](https://secret.wiki/argo-tunnel/downloads/)
 * An [active zone on Cloudflare](https://support.cloudflare.com/hc/en-us/articles/201720164-Step-2-Create-a-Cloudflare-account-and-add-a-website)
 * An active subscription to Argo. You can enable your subscription in the Cloudflare dashboard in the **Traffic** tab
 
@@ -42,7 +42,7 @@ To set up Argo Tunnel, begin by using Argo Smart Routing:
 
     **Note**: To enable Argo Smart Routing, enterprise customers must contact their Cloudflare representative.
 
-1. [Follow these instructions to install `cloudflared`](https://developers.cloudflare.com/argo-tunnel/downloads/).
+1. [Follow these instructions to install `cloudflared`](https://secret.wiki/argo-tunnel/downloads/).
 
     The `cloudflared` daemon runs Argo Tunnel. It is available for amd64, x86, and ARMv6 machines in binary, `.deb`, and `.rpm` types. The code for the `cloudflared` client is [available on GitHub](https://github.com/cloudflare/cloudflared).
 
@@ -95,4 +95,4 @@ To set up Argo Tunnel, begin by using Argo Smart Routing:
 
 You can now proceed to use your on-premise application from any location without a VPN.
 
-**Note:** If the connection does not succeed, use [these guides and references for Argo Tunnel and cloudflared](https://developers.cloudflare.com/argo-tunnel/reference/) for troubleshooting.
+**Note:** If the connection does not succeed, use [these guides and references for Argo Tunnel and cloudflared](https://secret.wiki/argo-tunnel/reference/) for troubleshooting.

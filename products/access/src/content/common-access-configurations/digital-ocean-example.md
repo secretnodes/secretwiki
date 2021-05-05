@@ -6,7 +6,7 @@ order: 2
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -192,7 +192,7 @@ $ sudo systemctl restart ssh
 
 Argo Tunnel is a Cloudflare feature that uses a lightweight daemon, `cloudflared`, to securely connect your server to the Cloudflare network using only outbound calls. Each Argo Tunnel consists of multiple, highly available connections to at least two Cloudflare data centers.
 
-Review these instructions for [setting up Argo Tunnel](https://developers.cloudflare.com/argo-tunnel/quickstart/).
+Review these instructions for [setting up Argo Tunnel](https://secret.wiki/argo-tunnel/quickstart/).
 
 ## Create Your Argo Tunnel
 
@@ -204,7 +204,7 @@ Run the following command to create the Argo Tunnel and subdomain. You do not ne
 $ nohup cloudflared tunnel --hostname droplet.widgetcorp.tech --url ssh://localhost:22 &
 ```
 
-**Note:** This example uses a `nohup` prefix to keep the Argo Tunnel running after the session terminates. Production use cases may need to run `cloudflared` as a `systemd` process. Read more about running `cloudflared` in production environments [in these guidelines](https://developers.cloudflare.com/argo-tunnel/reference/service/). The output should resemble this:
+**Note:** This example uses a `nohup` prefix to keep the Argo Tunnel running after the session terminates. Production use cases may need to run `cloudflared` as a `systemd` process. Read more about running `cloudflared` in production environments [in these guidelines](https://secret.wiki/argo-tunnel/reference/service/). The output should resemble this:
 
 ![Argo Tunnel example output](../static/digital-ocean-example-12.png "Argo Tunnel example output")
 

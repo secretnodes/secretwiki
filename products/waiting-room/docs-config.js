@@ -19,7 +19,7 @@ module.exports = {
     title: "Cloudflare Waiting Room docs",
     description: "Cloudflare Waiting Rooms redirect visitors to virtual waiting rooms when they are trying to access web pages that have high volumes of traffic.",
     author: "@cloudflare",
-    url: "https://developers.cloudflare.com/waiting-room",
+    url: "https://secret.wiki/waiting-room",
     image: "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="
   }
 }

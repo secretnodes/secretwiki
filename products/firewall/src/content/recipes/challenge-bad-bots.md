@@ -2,7 +2,7 @@
 
 <Aside type='warning' header='Important'>
 
-Access to [Bot Management](https://developers.cloudflare.com/bots/get-started/bm-subscription) requires a Cloudflare Enterprise plan with Bot Management enabled.
+Access to [Bot Management](https://secret.wiki/bots/get-started/bm-subscription) requires a Cloudflare Enterprise plan with Bot Management enabled.
 
 </Aside>
 
@@ -17,10 +17,10 @@ These examples use:
 ## Suggested rules
 
 For best results:
-- Use [Bot Analytics](https://developers.cloudflare.com/bots/get-started/bm-subscription#enable-bot-management-for-enterprise) to learn about your traffic before applying rules
+- Use [Bot Analytics](https://secret.wiki/bots/get-started/bm-subscription#enable-bot-management-for-enterprise) to learn about your traffic before applying rules
 - Start small and increase your bot threshold over time
 
-Your rules may also vary based on the [nature of your site](https://developers.cloudflare.com/bots/get-started/bm-subscription#5-create-additional-firewall-rules) and your tolerance for false positives.
+Your rules may also vary based on the [nature of your site](https://secret.wiki/bots/get-started/bm-subscription#5-create-additional-firewall-rules) and your tolerance for false positives.
 
 ### Protect browser endpoints
 
@@ -100,10 +100,10 @@ If your domain saw mobile, browser, and API traffic, you would want to arrange t
 
 Static resources are protected by default when you create **Firewall Rules** using `cf.bot_management.score`.
 
-To exclude static resources, include <code class="InlineCode">not (cf.botManagement.staticResource)</code> as part of your Firewall Rule. For more details, see [Static resource protection](https://developers.cloudflare.com/bots/about/static-resources).
+To exclude static resources, include <code class="InlineCode">not (cf.botManagement.staticResource)</code> as part of your Firewall Rule. For more details, see [Static resource protection](https://secret.wiki/bots/about/static-resources).
 
 ### Additional considerations
 
 From there, you could customize your Firewall Rules based on specific request paths(`/login` or `/signup`), common traffic patterns, or many other characteristics.
 
-Just make sure to set aside time to review [Bot Analytics](https://developers.cloudflare.com/bots/bot-analytics/bm-subscription) and [Firewall Events](https://support.cloudflare.com/hc/articles/360024520152) to see if your rules need additional tuning.
+Just make sure to set aside time to review [Bot Analytics](https://secret.wiki/bots/bot-analytics/bm-subscription) and [Firewall Events](https://support.cloudflare.com/hc/articles/360024520152) to see if your rules need additional tuning.

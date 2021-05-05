@@ -67,7 +67,7 @@ Here are some common time intervals that may be useful for setting up your Cron 
 
 ## Viewing past events
 
-Users can view the execution history of their Cron Triggers on the Past Events section of the [Workers Triggers tab](https://dash.cloudflare.com/?to=/:account/workers) or through Cloudflare's [GraphQL Analytics API](https://developers.cloudflare.com/analytics/graphql-api).
+Users can view the execution history of their Cron Triggers on the Past Events section of the [Workers Triggers tab](https://dash.cloudflare.com/?to=/:account/workers) or through Cloudflare's [GraphQL Analytics API](https://secret.wiki/analytics/graphql-api).
 
 ![workers-past-events](./media/workers-past-events.png)
 

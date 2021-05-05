@@ -1,7 +1,7 @@
 # Redirects
 
 ## Creating redirects
-To use redirects on Cloudflare Pages, declare your redirects in a `_redirects` plain text file in the output folder of your project. The [build output folder](https://developers.cloudflare.com/pages/platform/build-configuration) is project-specific so the `_redirects` file should not always be in the root directory of the repo. Changes to redirects will be updated to your website at build time so make sure you commit and push the file to trigger a new build each time you update redirects.
+To use redirects on Cloudflare Pages, declare your redirects in a `_redirects` plain text file in the output folder of your project. The [build output folder](https://secret.wiki/pages/platform/build-configuration) is project-specific so the `_redirects` file should not always be in the root directory of the repo. Changes to redirects will be updated to your website at build time so make sure you commit and push the file to trigger a new build each time you update redirects.
 
 Redirects can be stated as such with one redirect per line in the form: 
 
@@ -41,4 +41,4 @@ We currently offer limited support for advanced redirects. More support will be 
 
 ## See also
 
-- [Transform Rules](https://developers.cloudflare.com/rules/transform)
+- [Transform Rules](https://secret.wiki/rules/transform)

@@ -6,7 +6,7 @@ order: 0
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -39,4 +39,4 @@ To start using Gateway, set up your first **location** and your DNS resolvers.
 
 9. Click **Finish setup**.
 
-  This will take you to the [Teams dashboard](https://dash.teams.cloudflare.com), where you can start customizing your location, or you can add your first [DNS](https://developers.cloudflare.com/gateway/getting-started/configuring-dns-policy) or [HTTP policy](https://developers.cloudflare.com/gateway/getting-started/configuring-http-policy).
+  This will take you to the [Teams dashboard](https://dash.teams.cloudflare.com), where you can start customizing your location, or you can add your first [DNS](https://secret.wiki/gateway/getting-started/configuring-dns-policy) or [HTTP policy](https://secret.wiki/gateway/getting-started/configuring-http-policy).

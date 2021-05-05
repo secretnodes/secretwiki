@@ -10,6 +10,6 @@ You can [create Load Balancing rules](/understand-basics/load-balancing-rules/cr
 
 ![Create Custom Rule card in Traffic app](../../static/images/traffic-app-create-custom-rule.png)
 
-As with Cloudflare [Firewall rules](https://developers.cloudflare.com/firewall/cf-firewall-rules), each Load Balancing rule is a combination of two elements: an [expression](/understand-basics/load-balancing-rules/expressions) and an [action](/understand-basics/load-balancing-rules/actions). Expressions define the criteria for an HTTP request to trigger an action. The action tells Cloudflare how to handle the request.
+As with Cloudflare [Firewall rules](https://secret.wiki/firewall/cf-firewall-rules), each Load Balancing rule is a combination of two elements: an [expression](/understand-basics/load-balancing-rules/expressions) and an [action](/understand-basics/load-balancing-rules/actions). Expressions define the criteria for an HTTP request to trigger an action. The action tells Cloudflare how to handle the request.
 
 When building expressions for Load Balancing rules, refer to [Supported fields and operators](/understand-basics/load-balancing-rules/reference) for definitions and usage.

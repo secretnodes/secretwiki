@@ -111,4 +111,4 @@ For example, you might create a list of known office IP addresses and use it in 
 
 Cloudflare stores your lists at the account level and sends to the edge, so you can view, manage, and incorporate them into firewall rules for any of your zones.
 
-For more, see [_Rules Lists_](https://developers.cloudflare.com/firewall/cf-firewall-rules/rules-lists) in the Firewall Rules documentation.
+For more, see [_Rules Lists_](https://secret.wiki/firewall/cf-firewall-rules/rules-lists) in the Firewall Rules documentation.

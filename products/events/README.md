@@ -1,3 +1,3 @@
 # Cloudflare Developer Events schedule
 
-[View events →](https://developers.cloudflare.com/events)
+[View events →](https://secret.wiki/events)

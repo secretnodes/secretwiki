@@ -6,7 +6,7 @@ order: 12
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -57,7 +57,7 @@ A video guide is [also available](/videos/configuring-access/).
 
 ### Cloudflare logging
 
-Enterprise customers have access to detailed logs of HTTP requests. Enterprise customers also have access to Cloudflare's Logpush service, which can be configured from the Cloudflare Dashboard or API (see [_Cloudflare Logs_](https://developers.cloudflare.com/logs/)).
+Enterprise customers have access to detailed logs of HTTP requests. Enterprise customers also have access to Cloudflare's Logpush service, which can be configured from the Cloudflare Dashboard or API (see [_Cloudflare Logs_](https://secret.wiki/logs/)).
 
 Cloudflare secures both external-facing sites and internal resources by triaging each request in our network before we ever send it to your origin. Products like our WAF enforce rules to protect your site from attacks like SQL injection or cross-site scripting. Likewise, Access identifies the principal behind each request by evaluating each connection that passes through the gateway.
 
@@ -109,9 +109,9 @@ Access integrates with the Cloudflare Logpush API, so you can export per-request
 
 Cloudflare Logpush pushes Enterprise customers' HTTP request logs, including Access user identity, to a cloud storage provider every 5 minutes.
 
-For instructions on setting up Logpush, see [_Manage the Logpush API_](https://developers.cloudflare.com/logs/logpush/logpush-configuration-api/).
+For instructions on setting up Logpush, see [_Manage the Logpush API_](https://secret.wiki/logs/logpush/logpush-configuration-api/).
 
-For more on exporting per-request Access logs, see [_Understanding the Logpush API_](https://developers.cloudflare.com/logs/logpush/logpush-configuration-api/understanding-logpush-api/).
+For more on exporting per-request Access logs, see [_Understanding the Logpush API_](https://secret.wiki/logs/logpush/logpush-configuration-api/understanding-logpush-api/).
 
 ## Video guide
 

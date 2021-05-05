@@ -27,7 +27,7 @@ module.exports = {
     title: "Cloudflare Access docs",
     description: "Welcome to Cloudflare Access. You can now make all your applications available on the internet without a VPN. Access protects these applications and allows only authorized users to access them. For example, Cloudflare uses Access to ensure only people at Cloudflare can access internal tools like our staging site.",
     author: "@cloudflare",
-    url: "https://developers.cloudflare.com/access",
+    url: "https://secret.wiki/access",
     image: "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="
   }
 }

@@ -19,7 +19,7 @@ module.exports = {
     title: "Cloudflare BYOIP docs",
     description: "With BYOIP, Cloudflare announces your IPs in all our locations. Use your IPs with Magic Transit, Spectrum, or CDN services.",
     author: "@cloudflare",
-    url: "https://developers.cloudflare.com/byoip",
+    url: "https://secret.wiki/byoip",
     image: "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="
   }
 }

@@ -17,7 +17,7 @@ module.exports = {
       title: "Cloudflare Bot Management docs",
       description: "Cloudflare’s bot solutions identify and mitigate automated traffic to protect your domain from bad bots.",
       author: "@cloudflare",
-      url: "https://developers.cloudflare.com/bots",
+      url: "https://secret.wiki/bots",
       image: "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=",
   },
 }

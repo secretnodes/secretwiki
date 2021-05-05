@@ -225,7 +225,7 @@ async function gatherResponse(response) {
 }
 ```
 
-Once you have the tokenized URL, you can pass it to the tus client to begin the upload. For details on using a tus client, refer to the [Resumable uploads with tus ](https://developers.cloudflare.com/stream/uploading-videos/upload-video-file#resumable-uploads-with-tus-for-large-files) article. 
+Once you have the tokenized URL, you can pass it to the tus client to begin the upload. For details on using a tus client, refer to the [Resumable uploads with tus ](https://secret.wiki/stream/uploading-videos/upload-video-file#resumable-uploads-with-tus-for-large-files) article. 
 
 To test your end point which returns the tokenized URL, visit the [tus codepen demo](https://codepen.io/cfzf/pen/wvGMRXe) and paste your end point URL in the "Upload endpoint" field. 
 

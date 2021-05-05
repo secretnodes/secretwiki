@@ -6,7 +6,7 @@ order: 3
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -49,7 +49,7 @@ To install the Cloudflare root certificate, follow the steps [found here](/conne
 
 ### Install the WARP client and log in with Cloudflare for Teams
 
-1. Follow [these instructions](https://developers.cloudflare.com/warp-client/teams) to install and configure the Cloudflare WARP client.
+1. Follow [these instructions](https://secret.wiki/warp-client/teams) to install and configure the Cloudflare WARP client.
 
 ### Configure clients to protect DNS and HTTP traffic
 

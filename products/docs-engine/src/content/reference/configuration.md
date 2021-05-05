@@ -137,7 +137,7 @@ module.exports = {
     },
     {
       title: "Cloudflare Developer documentation",
-      url: "https://developers.cloudflare.com/docs"
+      url: "https://secret.wiki/docs"
     },
   ],
   search: {
@@ -148,7 +148,7 @@ module.exports = {
     title: "Cloudflare Docs Engine docs",
     description: "Documentation for the open-source Cloudflare Documentation engine which powers Cloudflare's open-source documentation.",
     author: "@cloudflare",
-    url: "https://developers.cloudflare.com/docs-engine",
+    url: "https://secret.wiki/docs-engine",
     image: "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=",
   }
 }

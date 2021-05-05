@@ -6,7 +6,7 @@ order: 1
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -18,4 +18,4 @@ The DNS filtering policy configured for that location will be applied to WARP cl
 
 When DNS filtering is enabled, all other traffic will be sent directly to the Internet. Entering a DoH subdomain for an organization triggers WARP into Teams mode
 
-Learn more about configuring the DoH subdomain within the WARP client for your operating system [here](https://developers.cloudflare.com/warp-client/teams).
+Learn more about configuring the DoH subdomain within the WARP client for your operating system [here](https://secret.wiki/warp-client/teams).

@@ -1,5 +1,5 @@
 # Cloudflare Stream docs
 
-[View docs →](https://developers.cloudflare.com/stream)
+[View docs →](https://secret.wiki/stream)
 
-[Read contributor guidelines →](https://developers.cloudflare.com/docs-engine/contributing/content-framework)
+[Read contributor guidelines →](https://secret.wiki/docs-engine/contributing/content-framework)

@@ -5,7 +5,7 @@ order: 1
 
 # Create a URL Rewrite Rule via API
 
-Use the [Rulesets API](https://developers.cloudflare.com/firewall/cf-rulesets/rulesets-api) to create URL Rewrite Rules via API. Define the rewrite configuration in the `action_parameters` field. See [Common use cases](/transform/use-cases) for example rule definitions.
+Use the [Rulesets API](https://secret.wiki/firewall/cf-rulesets/rulesets-api) to create URL Rewrite Rules via API. Define the rewrite configuration in the `action_parameters` field. See [Common use cases](/transform/use-cases) for example rule definitions.
 
 When creating a URL Rewrite Rule via API, make sure you:
 
@@ -17,14 +17,14 @@ When creating a URL Rewrite Rule via API, make sure you:
 
 Follow this workflow to create a URL Rewrite Rule for a given zone via API:
 
-1. Use the [List existing rulesets](https://developers.cloudflare.com/firewall/cf-rulesets/rulesets-api/view#list-existing-rulesets) method to check if there is already a ruleset for the `http_request_transform` Phase at the zone level.
+1. Use the [List existing rulesets](https://secret.wiki/firewall/cf-rulesets/rulesets-api/view#list-existing-rulesets) method to check if there is already a ruleset for the `http_request_transform` Phase at the zone level.
 
-1. If the Phase ruleset does not exist, create it using the [Create ruleset](https://developers.cloudflare.com/firewall/cf-rulesets/rulesets-api/create) method with the zone-level endpoint. In the new ruleset properties, set the following values:
+1. If the Phase ruleset does not exist, create it using the [Create ruleset](https://secret.wiki/firewall/cf-rulesets/rulesets-api/create) method with the zone-level endpoint. In the new ruleset properties, set the following values:
 
     * **kind**: `zone`
     * **phase**: `http_request_transform`
 
-1. Use the [Update ruleset](https://developers.cloudflare.com/firewall/cf-rulesets/rulesets-api/update) method to add a URL Rewrite Rule to the list of ruleset rules (check the examples below). Alternatively, include the rule in the [Create ruleset](https://developers.cloudflare.com/firewall/cf-rulesets/rulesets-api/create) request mentioned in the previous step.
+1. Use the [Update ruleset](https://secret.wiki/firewall/cf-rulesets/rulesets-api/update) method to add a URL Rewrite Rule to the list of ruleset rules (check the examples below). Alternatively, include the rule in the [Create ruleset](https://secret.wiki/firewall/cf-rulesets/rulesets-api/create) request mentioned in the previous step.
 
 ### Examples
 
@@ -32,7 +32,7 @@ Follow this workflow to create a URL Rewrite Rule for a given zone via API:
 <summary>Example: Add a rule that performs a static URL rewrite</summary>
 <div>
 
-The following example sets the rules of an existing Phase ruleset (`{ruleset-id}`) to a single URL Rewrite Rule — performing a static rewrite of the URI path — using the [Update ruleset](https://developers.cloudflare.com/firewall/cf-rulesets/rulesets-api/update) method:
+The following example sets the rules of an existing Phase ruleset (`{ruleset-id}`) to a single URL Rewrite Rule — performing a static rewrite of the URI path — using the [Update ruleset](https://secret.wiki/firewall/cf-rulesets/rulesets-api/update) method:
 
 ```json
 ---
@@ -107,7 +107,7 @@ header: Response
 <summary>Example: Add a rule that performs a dynamic URL rewrite</summary>
 <div>
 
-The following example sets the rules of an existing Phase ruleset (`{ruleset-id}`) to a single URL Rewrite Rule — performing a dynamic rewrite of the URI path — using the [Update ruleset](https://developers.cloudflare.com/firewall/cf-rulesets/rulesets-api/update) method:
+The following example sets the rules of an existing Phase ruleset (`{ruleset-id}`) to a single URL Rewrite Rule — performing a dynamic rewrite of the URI path — using the [Update ruleset](https://secret.wiki/firewall/cf-rulesets/rulesets-api/update) method:
 
 ```json
 ---

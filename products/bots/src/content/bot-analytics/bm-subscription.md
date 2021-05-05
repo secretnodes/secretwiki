@@ -42,8 +42,8 @@ Bot Management customers can use Bot Analytics to:
 
 Data from Bot Analytics is also available via the GraphQL API. You can access bot scores, bot sources, and bot *decisions* (*automated*, *likely automated*, etc.).
 
-Read the [GraphQL Analytics API documentation](https://developers.cloudflare.com/analytics/graphql-api) for more information about GraphQL and basic querying.
+Read the [GraphQL Analytics API documentation](https://secret.wiki/analytics/graphql-api) for more information about GraphQL and basic querying.
 
 ## Third-party tools
 
-To bring data from **Bot Management** into tools like Elastic, Google Data Studio, and more, see our [Bot Management Dashboard tutorial](https://developers.cloudflare.com/logs/tutorials/bot-management-dashboard).
+To bring data from **Bot Management** into tools like Elastic, Google Data Studio, and more, see our [Bot Management Dashboard tutorial](https://secret.wiki/logs/tutorials/bot-management-dashboard).

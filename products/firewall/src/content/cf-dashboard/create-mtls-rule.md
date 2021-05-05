@@ -8,9 +8,9 @@ Use the [Mutual TLS](/cf-firewall-rules/api-shield#mutual-tls-mtls) Rule interfa
 
 Before you can create a mTLS rule, you must do the following:
 
-- [Create a client certificate](https://developers.cloudflare.com/ssl/client-certificates/create-a-client-certificate).
-- [Configure your mobile app or IoT device](https://developers.cloudflare.com/ssl/client-certificates/configure-your-mobile-app-or-iot-device) to use your Cloudflare-issued client certificate.
-- [Enable mutual Transport Layer Security (mTLS) for a host](https://developers.cloudflare.com/ssl/client-certificates/enable-mtls) in your zone.
+- [Create a client certificate](https://secret.wiki/ssl/client-certificates/create-a-client-certificate).
+- [Configure your mobile app or IoT device](https://secret.wiki/ssl/client-certificates/configure-your-mobile-app-or-iot-device) to use your Cloudflare-issued client certificate.
+- [Enable mutual Transport Layer Security (mTLS) for a host](https://secret.wiki/ssl/client-certificates/enable-mtls) in your zone.
 
 <Aside type='warning' header='Important'>
 
@@ -46,13 +46,13 @@ To create a mTLS rule in the Cloudflare dashboard, follow these steps:
 
 1. Enter a descriptive identifier for your mTLS rule in the **Rule name** input.
 
-1. Enter the hosts you want to protect with your mTLS rule in the **API hosts** input. By default, all available hosts are listed. Only hosts in the zone you selected in Step 1 and for which you [enable mTLS](https://developers.cloudflare.com/ssl/client-certificates/enable-mtls) are available. To remove a host from the rule, click the associated **X** icon.
+1. Enter the hosts you want to protect with your mTLS rule in the **API hosts** input. By default, all available hosts are listed. Only hosts in the zone you selected in Step 1 and for which you [enable mTLS](https://secret.wiki/ssl/client-certificates/enable-mtls) are available. To remove a host from the rule, click the associated **X** icon.
 
 1. To create your rule and make it active, click **Deploy**.
 
 The **Mutual TLS Rule** dialog closes and the **Firewall Rules** card displays with your new rule in the list.
 
-Once you have deployed your mTLS rule, [configure your mobile app or IoT device](https://developers.cloudflare.com/ssl/client-certificates/configure-your-mobile-app-or-iot-device) to use your Cloudflare-issued client certificate.
+Once you have deployed your mTLS rule, [configure your mobile app or IoT device](https://secret.wiki/ssl/client-certificates/configure-your-mobile-app-or-iot-device) to use your Cloudflare-issued client certificate.
 
 ## Review your rule in the Expression Builder
 
@@ -72,7 +72,7 @@ Because the [action](/cf-firewall-rules/actions) for your rule is _Block_, only 
 
 ## Check for revoked certificates
 
-Since you can [revoke client certificates](https://developers.cloudflare.com/ssl/client-certificates/revoke-client-certificate), you can add a mTLS rule that checks if the certificate included in the request has been revoked. To create such a rule you must use the Expression Editor.
+Since you can [revoke client certificates](https://secret.wiki/ssl/client-certificates/revoke-client-certificate), you can add a mTLS rule that checks if the certificate included in the request has been revoked. To create such a rule you must use the Expression Editor.
 
 When a request includes a revoked certificate, the `cf.tls_client_auth.cert_revoked` field is set to `true`. You can create a rule using this field to block requests that include a revoked certificate.
 

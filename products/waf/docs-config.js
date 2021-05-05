@@ -23,7 +23,7 @@ module.exports = {
     title: "Cloudflare Web Application Firewall (WAF) docs",
     description: "Protect against web application vulnerabilities with Cloudflare’s Web Application Firewall (WAF).",
     author: "@cloudflare",
-    url: "https://developers.cloudflare.com/waf",
+    url: "https://secret.wiki/waf",
     image: "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="
   }
 }

@@ -29,11 +29,11 @@ It’s __open-source__ and [available on GitHub](https://github.com/cloudflare/c
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | [Minimal example](https://docs-engine-example.adam.workers.dev)       | [@adamschwartz/docs-engine-example](https://github.com/adamschwartz/docs-engine-example)                                          |
 | [Docs Engine](https://docs-engine-docs.adam.workers.dev) — This site. | [@cloudflare/cloudflare-docs/.../docs-engine](https://github.com/cloudflare/cloudflare-docs/tree/production/products/docs-engine) |
-| [Access](https://developers.cloudflare.com/access)                    | [@cloudflare/cloudflare-docs/.../access](https://github.com/cloudflare/cloudflare-docs/tree/production/products/access)           |
-| [Images](https://developers.cloudflare.com/images)                    | [@cloudflare/cloudflare-docs/.../images](https://github.com/cloudflare/cloudflare-docs/tree/production/products/images)           |
-| [Stream](https://developers.cloudflare.com/stream)                    | [@cloudflare/cloudflare-docs/.../stream](https://github.com/cloudflare/cloudflare-docs/tree/production/products/stream)           |
-| [Terraform](https://developers.cloudflare.com/terraform)              | [@cloudflare/cloudflare-docs/.../terraform](https://github.com/cloudflare/cloudflare-docs/tree/production/products/terraform)     |
-| [Workers](https://developers.cloudflare.com/workers)                  | [@cloudflare/cloudflare-docs/.../workers](https://github.com/cloudflare/cloudflare-docs/tree/production/products/workers)         |
+| [Access](https://secret.wiki/access)                    | [@cloudflare/cloudflare-docs/.../access](https://github.com/cloudflare/cloudflare-docs/tree/production/products/access)           |
+| [Images](https://secret.wiki/images)                    | [@cloudflare/cloudflare-docs/.../images](https://github.com/cloudflare/cloudflare-docs/tree/production/products/images)           |
+| [Stream](https://secret.wiki/stream)                    | [@cloudflare/cloudflare-docs/.../stream](https://github.com/cloudflare/cloudflare-docs/tree/production/products/stream)           |
+| [Terraform](https://secret.wiki/terraform)              | [@cloudflare/cloudflare-docs/.../terraform](https://github.com/cloudflare/cloudflare-docs/tree/production/products/terraform)     |
+| [Workers](https://secret.wiki/workers)                  | [@cloudflare/cloudflare-docs/.../workers](https://github.com/cloudflare/cloudflare-docs/tree/production/products/workers)         |
 | [View the full list](https://github.com/cloudflare/cloudflare-docs#products) ...                                                                                                                          |
 
 </TableWrap>

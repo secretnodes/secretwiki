@@ -1,5 +1,5 @@
 # Cloudflare Firewall Rules docs
 
-[View docs →](https://developers.cloudflare.com/firewall)
+[View docs →](https://secret.wiki/firewall)
 
-[Read contributor guidelines →](https://developers.cloudflare.com/docs-engine/contributing/content-framework)
+[Read contributor guidelines →](https://secret.wiki/docs-engine/contributing/content-framework)

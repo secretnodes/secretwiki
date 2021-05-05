@@ -20,7 +20,7 @@ tags:
  */
 async function redirect(request) {
   // Use the cf object to obtain the country of the request
-  // more on the cf object: https://developers.cloudflare.com/workers/runtime-apis/request#incomingrequestcfproperties
+  // more on the cf object: https://secret.wiki/workers/runtime-apis/request#incomingrequestcfproperties
   const country = request.cf.country
 
   if (country != null && country in countryMap) {

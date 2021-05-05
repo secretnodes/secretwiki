@@ -16,7 +16,7 @@ Route patterns can be added with the Cloudflare API or on the [Workers tab](http
 
 <!-- TODO: add image -->
 <!--
-![Workers Route Modal](https://web.archive.org/web/20200817183804im_/https://developers.cloudflare.com/workers/about/media/add-route-modal.png)
+![Workers Route Modal](https://web.archive.org/web/20200817183804im_/https://secret.wiki/workers/about/media/add-route-modal.png)
 -->
 
 Cloudflare Site routes are comprised of:

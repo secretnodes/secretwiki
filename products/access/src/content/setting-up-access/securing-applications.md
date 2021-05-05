@@ -8,7 +8,7 @@ order: 1
 
 <Aside type='warning' header='⚠️ THIS PAGE IS OUTDATED'>
 
-We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/teams-docs-changes) instead.
+We're no longer maintaining this page. **It will be deleted on Feb 8, 2021**. Please visit the new [Cloudflare for Teams documentation](https://secret.wiki/cloudflare-one/teams-docs-changes) instead.
 
 </Aside>
 
@@ -27,7 +27,7 @@ To defend against attackers addressing IPs directly, Argo Tunnel can help secure
 
 Argo Tunnel runs in your infrastructure to connect the applications and machines to Cloudflare. That tunnel makes outbound-only calls to the Cloudflare network and organizations can replace complex firewall rules with just one: disable all inbound connections.
 
-For details see _[Getting started](https://developers.cloudflare.com/argo-tunnel/quickstart/)_ in the Argo Tunnel developers documentation.
+For details see _[Getting started](https://secret.wiki/argo-tunnel/quickstart/)_ in the Argo Tunnel developers documentation.
 
 #### 2. Validate JSON web tokens (JWTs)
 

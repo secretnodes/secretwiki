@@ -31,7 +31,7 @@ module.exports = {
     title: "Cloudflare Workers docs",
     description: "Documentation for Cloudflare Workers, a serverless execution environment that allows you to create entirely new applications or augment existing ones without configuring or maintaining infrastructure.",
     author: "@cloudflare",
-    url: "http://developers.cloudflare.com/workers",
-    image: "http://developers.cloudflare.com/workers/og-image.png",
+    url: "http://secret.wiki/workers",
+    image: "http://secret.wiki/workers/og-image.png",
   }
 }

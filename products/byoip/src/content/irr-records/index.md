@@ -10,6 +10,6 @@ The IRR consists of many individual [routing registries](http://www.irr.net/docs
 
 To announce your subnet prefixes, Cloudflare requires accurate IRR entries for your prefixes and autonomous system numbers (ASNs).
 
-When you configure network infrastructure for services such as [Magic Transit](https://developers.cloudflare.com/magic-transit/about), [verify your IRR entries](/irr-records/verify-irr-entries).
+When you configure network infrastructure for services such as [Magic Transit](https://secret.wiki/magic-transit/about), [verify your IRR entries](/irr-records/verify-irr-entries).
 
 When you add missing IRR entries or update inaccurate ones, use these [best practices](/irr-records/best-practices-for-irr-entry-updates).

@@ -31,7 +31,7 @@ View analytics is collected only when the Stream player is used. If you use a th
 
 Docs on this page is in progress. We have provided an example below where you can retrieve time viewed for the videos on your account in a single query.
 
-Please refer to [Cloudflare GraphQL analytics for HTTP requests](https://developers.cloudflare.com/analytics/graphql-api/getting-started) for further details on how to set up a GraphQL client for testing.
+Please refer to [Cloudflare GraphQL analytics for HTTP requests](https://secret.wiki/analytics/graphql-api/getting-started) for further details on how to set up a GraphQL client for testing.
 
 </Aside>
 

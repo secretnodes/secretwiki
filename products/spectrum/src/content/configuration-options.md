@@ -101,7 +101,7 @@ TLS versions supported by Spectrum: TLS 1.1, TLS 1.2, and TLS 1.3.
 
 ## Origin TLS Termination
 
-Below are the cipher suites that we present to origins during an SSL/TLS handshake. If you're looking for cipher suites that we support at our edge, i.e., that are presented to browsers and other user agents, see [here](https://developers.cloudflare.com/ssl/ssl-tls/cipher-suites/) instead.
+Below are the cipher suites that we present to origins during an SSL/TLS handshake. If you're looking for cipher suites that we support at our edge, i.e., that are presented to browsers and other user agents, see [here](https://secret.wiki/ssl/ssl-tls/cipher-suites/) instead.
 
 Note that the cipher suites below are ordered based on how they appear in the ClientHello, communicating our preference to the origin.
 

@@ -8,7 +8,7 @@ For each connection, Spectrum logs a connect event and either a disconnect or er
 
 ### Configuring Logpush
 
-Spectrum [log events](https://developers.cloudflare.com/logs/log-fields/) can be configured through the [dashboard](https://developers.cloudflare.com/logs/logpush/logpush-dashboard/) and [API](https://developers.cloudflare.com/logs/logpush/logpush-configuration-api/).
+Spectrum [log events](https://secret.wiki/logs/log-fields/) can be configured through the [dashboard](https://secret.wiki/logs/logpush/logpush-dashboard/) and [API](https://secret.wiki/logs/logpush/logpush-configuration-api/).
 
 ### Status Codes
 
