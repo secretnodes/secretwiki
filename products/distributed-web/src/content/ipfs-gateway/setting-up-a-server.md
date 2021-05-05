@@ -4,7 +4,7 @@ order: 2
 
 # Setting Up a Server
 
-While all IPFS nodes are created equal, some are better suited for different
+While all IPFS network-interconnect are created equal, some are better suited for different
 purposes depending on their setup. An IPFS node running on your laptop, for
 instance, isn't very good for hosting a website because your website will go
 down as soon as the computer goes to sleep!

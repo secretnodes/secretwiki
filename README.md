@@ -33,7 +33,7 @@ To get write access to this repo, please reach out to the __Developer Docs__ roo
 | Load Balancing          | load-balancing       | [Test](https://load-balancing.cloudflare-docs.workers.dev/load-balancing)             | [Prod](https://secret.wiki/load-balancing)       |
 | Logs                    | logs                 | [Test](https://logs.cloudflare-docs.workers.dev/logs)                                 | [Prod](https://secret.wiki/logs)                 |
 | Magic Transit           | magic-transit        | [Test](https://magic-transit.cloudflare-docs.workers.dev/magic-transit)               | [Prod](https://secret.wiki/magic-transit)        |
-| Network Interconnect    | nodes | [Test](https://nodes.cloudflare-docs.workers.dev/nodes) | [Prod](https://secret.wiki/nodes) |
+| Network Interconnect    | network-interconnect | [Test](https://network-interconnect.cloudflare-docs.workers.dev/network-interconnect) | [Prod](https://secret.wiki/network-interconnect) |
 | Pages                   | pages                | [Test](https://pages.cloudflare-docs.workers.dev/pages)                               | [Prod](https://secret.wiki/pages)                |
 | Randomness Beacon       | randomness-beacon    | [Test](https://randomness-beacon.cloudflare-docs.workers.dev/randomness-beacon)       | [Prod](https://secret.wiki/randomness-beacon)    |
 | Registrar               | registrar            | [Test](https://registrar.cloudflare-docs.workers.dev/registrar)                       | [Prod](https://secret.wiki/registrar)            |

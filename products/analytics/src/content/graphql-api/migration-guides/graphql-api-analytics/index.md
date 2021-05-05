@@ -5,7 +5,7 @@ order: 10
 
 # httpRequests1mByColoGroups/httpRequests1dByColoGroups to httpRequestsAdaptiveGroups
 
-This guide shares considerations when migrating from the deprecated `httpRequests1mByColoGroups` and `httpRequests1dByColoGroups` GraphQL API nodes to the `httpRequestsAdaptiveGroups` GraphQL API node.
+This guide shares considerations when migrating from the deprecated `httpRequests1mByColoGroups` and `httpRequests1dByColoGroups` GraphQL API network-interconnect to the `httpRequestsAdaptiveGroups` GraphQL API node.
 
 For example, if you wanted to see which five data centers had the most number of requests, the total number of those requests, and the total amount of data transfer, in the past you used the  `httpRequests1mByColoGroups` GraphQL API node as in the following example:
 
@@ -97,7 +97,7 @@ For example, if you wanted to see which five data centers had the most number of
 ```
 
 ## `httpRequestsAdaptiveGroups` GraphQL API node
-With the deprecation of the `httpRequests1mByColoGroups` and `httpRequests1dByColoGroups` GraphQL API nodes, use the `httpRequestsAdaptiveGroups` GraphQL API node to access the same data (`count`, `sum(edgeResponseBytes)`, and `visits`).
+With the deprecation of the `httpRequests1mByColoGroups` and `httpRequests1dByColoGroups` GraphQL API network-interconnect, use the `httpRequestsAdaptiveGroups` GraphQL API node to access the same data (`count`, `sum(edgeResponseBytes)`, and `visits`).
 
 **Request**
 ```graphql

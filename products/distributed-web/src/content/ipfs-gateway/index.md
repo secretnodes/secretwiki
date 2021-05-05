@@ -55,7 +55,7 @@ IPFS is fundamentally a [Distributed Hash Table
 CIDs to people who have the content addressed by that CID. The hash
 table is distributed because no single node in the network holds the whole
 thing. Instead, each node stores a subset of the hash table, as well as
-information about which nodes are storing other relevant sections.
+information about which network-interconnect are storing other relevant sections.
 
 When someone talks about 'uploading' content to IPFS, what they really mean
 (usually) is that they're announcing to the network that they have some content

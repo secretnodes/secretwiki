@@ -9,13 +9,13 @@ write and compute smart contracts in a distributed manner. Smart contracts are
 essentially Turing complete programs that are available at a unique address of
 the network. When the smart contract is run as part of a transaction, the result
 and the current state of the contract are stored in a verifiable consensus that
-is agreed upon by the entire network of nodes.
+is agreed upon by the entire network of network-interconnect.
 
 ## Smart contracts
 
 When a user wants to run a smart contract on some desired inputs, they provide
 currency known as ETH with their command. This currency is allocated to a
-specific set of nodes that contribute to adding the transaction to the
+specific set of network-interconnect that contribute to adding the transaction to the
 distributed consensus.
 
 If the smart contract involves moving monetary amounts to different individuals
@@ -42,7 +42,7 @@ network accountable.
 ## Reading & writing content
 
 To read content, a user needs to interact with a working Ethereum node. Such
-nodes can be run locally on a user's machine as daemons (such as:
+network-interconnect can be run locally on a user's machine as daemons (such as:
 <https://github.com/ethereum/go-ethereum/>). When the user access to such a node
 it can use the official JSONRPC API to send queries to the network, and learn
 about specific aspects of the consensus.

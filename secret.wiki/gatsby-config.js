@@ -28,7 +28,7 @@ const products = [
   "load-balancing",
   "logs",
   "magic-transit",
-  "nodes",
+  "network-interconnect",
   "randomness-beacon",
   "registrar",
   "spectrum",

@@ -15,7 +15,7 @@ Cloudflare Analytics builds the following data sets from sampled data:
 
 <TableWrap>
 
-| Data set              | Nodes                                                                          |
+| Data set              | network-interconnect                                                                          |
 | :-------------------- | :----------------------------------------------------------------------------- |
 | Firewall Activity Log | `firewallEventsAdaptive` `firewallEventsAdaptiveByTimeGroups`                  |
 | Firewall Analytics    | `firewallEventsAdaptiveGroups`                                                 |
@@ -35,18 +35,18 @@ Analytics is designed to provide requested data, at the appropriate level of det
 
 ### Adaptive sampling
 
-Cloudflare almost always uses _adaptive sampling_, which means the sample rate fluctuates depending on the volume of data ingested or queried. If the number of records is relatively small, sampling is not used. However, as the volume of records grows larger, progressively lower sample rates are applied. Firewall Analytics and the Firewall Event Log follow this model. Data nodes that use adaptive sampling are easy to identify by the `Adaptive` suffix in the node name, as in `firewallEventsAdaptive`.
+Cloudflare almost always uses _adaptive sampling_, which means the sample rate fluctuates depending on the volume of data ingested or queried. If the number of records is relatively small, sampling is not used. However, as the volume of records grows larger, progressively lower sample rates are applied. Firewall Analytics and the Firewall Event Log follow this model. Data network-interconnect that use adaptive sampling are easy to identify by the `Adaptive` suffix in the node name, as in `firewallEventsAdaptive`.
 
 ### Fixed sampling
 
-The following data nodes are based on fixed sampling, where the sample rate does not vary:
+The following data network-interconnect are based on fixed sampling, where the sample rate does not vary:
 
 <TableWrap>
 
 | Data set | Rate | Notes |
 | :-- | --: | :-- |
-| Firewall Rules Preview<br /><p><b>Nodes:</b><br />`firewallRulePreviewGroups`</p> | 1% | Use with caution. A 1% sample rate does not provide accurate estimates for data sets smaller than a certain threshold, a scenario the Cloudflare Dashboard calls out explicitly but the API does not. |
-| Network Analytics<br /><p><b>Nodes:</b><br />`ipFlows1mGroups`<br />`ipFlows1hGroups`<br />`ipFlows1dGroups`<br />`ipFlows1mAttacksGroups`</p> | 0.012% | Sampling rate is in terms of packet count (1 of every 8,192 packets).                                                                                                                                 |
+| Firewall Rules Preview<br /><p><b>network-interconnect:</b><br />`firewallRulePreviewGroups`</p> | 1% | Use with caution. A 1% sample rate does not provide accurate estimates for data sets smaller than a certain threshold, a scenario the Cloudflare Dashboard calls out explicitly but the API does not. |
+| Network Analytics<br /><p><b>network-interconnect:</b><br />`ipFlows1mGroups`<br />`ipFlows1hGroups`<br />`ipFlows1dGroups`<br />`ipFlows1mAttacksGroups`</p> | 0.012% | Sampling rate is in terms of packet count (1 of every 8,192 packets).                                                                                                                                 |
 
 </TableWrap>
 

@@ -35,13 +35,13 @@ object-name: object-type-definition
 
 When you first open the **Documentation Explorer** pane, the `mutation` and `query` root types display:
 
-![Mutation and query nodes](../../static/images/graphiql-doc-explorer-query-mutations.png)
+![Mutation and query network-interconnect](../../static/images/graphiql-doc-explorer-query-mutations.png)
 
 In this example `query` is the name of a root, and `Query` is the type definition.
 
 ## Find the fields available for a type definition
 
-Click on the **type definition** of a node to view the fields that it provides. The **Documentation Explorer** also displays descriptions of the nodes.
+Click on the **type definition** of a node to view the fields that it provides. The **Documentation Explorer** also displays descriptions of the network-interconnect.
 
 For example, click the **Query** type definition. The **Documentation Explorer** displays the fields that `Query` provides. In this example, the fields are `cost` and `viewer`:
 
@@ -67,7 +67,7 @@ To view a list of the data sets available to query, click the **zone** type defi
 
 A list of data sets displays in the **Fields** section, each with list of valid arguments and a brief description. Arguments that end with an exclamation mark (`!`) are required.
 
-![Search nodes](../../static/images/graphiql-doc-explorer-zone-fields.png)
+![Search network-interconnect](../../static/images/graphiql-doc-explorer-zone-fields.png)
 
 Use the search input (magnifying glass icon) to find specific data sets:
 
@@ -79,7 +79,7 @@ The definition for the data set displays. This example shows the `firewallEvents
 
 ![firewallEventsAdaptive data set definition](../../static/images/graphiql-doc-explorer-firewallevents-definition.png)
 
-Refer to [_Data Sets (tables)_](/graphql-api/features/data-sets) for details on the nomenclature and behavior of these nodes.
+Refer to [_Data Sets (tables)_](/graphql-api/features/data-sets) for details on the nomenclature and behavior of these network-interconnect.
 
 ## Find the fields available for a data set
 

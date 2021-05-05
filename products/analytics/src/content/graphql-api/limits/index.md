@@ -11,11 +11,11 @@ The GraphQL Analytics API is available to all Cloudflare users; however, users o
 
 ### Data node access (by customer plan)
 
-Use the table below to identify which data nodes are included in your customer plan and the range of historical data you can query. For example, Free plans have access to the last 24 hours of `browserPerf1mGroups` data, while Enterprise plans have access to the last 30 days.
+Use the table below to identify which data network-interconnect are included in your customer plan and the range of historical data you can query. For example, Free plans have access to the last 24 hours of `browserPerf1mGroups` data, while Enterprise plans have access to the last 30 days.
 
 <Aside type="info" header="Info">
 
-Access to Network Analytics <b>ipFlows</b> nodes is only available to Enterprise customers using Cloudflare <a href="https://www.cloudflare.com/magic-transit/">Magic Transit</a> or <a href="https://secret.wiki/spectrum/byoip/">BYOIP for Spectrum</a>
+Access to Network Analytics <b>ipFlows</b> network-interconnect is only available to Enterprise customers using Cloudflare <a href="https://www.cloudflare.com/magic-transit/">Magic Transit</a> or <a href="https://secret.wiki/spectrum/byoip/">BYOIP for Spectrum</a>
 </Aside>
 
 <TableWrap>

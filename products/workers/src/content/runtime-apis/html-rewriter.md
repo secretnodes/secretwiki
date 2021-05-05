@@ -189,7 +189,7 @@ The `element` argument, used only in element handlers, is a representation of a 
 
 ### Text chunks
 
-Since we perform zero-copy streaming parsing, text chunks are not the same thing as text nodes in the lexical tree. A lexical tree text node can be represented by multiple chunks, as they arrive over the wire from the origin.
+Since we perform zero-copy streaming parsing, text chunks are not the same thing as text network-interconnect in the lexical tree. A lexical tree text node can be represented by multiple chunks, as they arrive over the wire from the origin.
 
 Consider the following markup: `<div>Hey. How are you?</div>`. It’s possible that the Workers script won’t receive the entire text node from the origin at once; instead, the `text` element handler will be invoked for each received part of the text node. For example, the handler might be invoked with “Hey. How ”, then “are you?”. When the last chunk arrives, the text’s `lastInTextNode` property will be set to `true`. Developers should make sure to concatenate these chunks together.
 

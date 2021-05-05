@@ -10,7 +10,7 @@ The GraphQL Analytics API is a RESTful API based on HTTPS requests and JSON resp
 All responses contain an `errors` array, which will be `null` if there are no errors, and include at least one error object if there was an error. Non-null error objects will contain the following fields:
 
 - `message`: a string describing the error
-- `path`: the nodes associated with the error, starting from the root. Note that the number included in the path array, e.g., `0` or `1`, specifies to which zone the error applies; `0` indicates the first zone in the list (or only zone, if only one is being queried).
+- `path`: the network-interconnect associated with the error, starting from the root. Note that the number included in the path array, e.g., `0` or `1`, specifies to which zone the error applies; `0` indicates the first zone in the list (or only zone, if only one is being queried).
 - `timestamp`: UTC datetime when the error occurred
 
 ## Example

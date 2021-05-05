@@ -11,7 +11,7 @@ GraphQL structures data as a graph. GraphQL uses a schema to define the objects 
 
 At the core of a GraphQL query is a _node_, followed by its _fields_. The node is an object of a certain _type_; the type specifies the fields that make up the object.
 
-A field can be another node, in which case the appropriate query would contain nested elements. Some nodes look like functions that can take on arguments to limit the scope of what they can act on. You can apply filters at each node.
+A field can be another node, in which case the appropriate query would contain nested elements. Some network-interconnect look like functions that can take on arguments to limit the scope of what they can act on. You can apply filters at each node.
 
 ## Query against the Cloudflare GraphQL schema
 

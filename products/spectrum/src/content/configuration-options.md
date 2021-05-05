@@ -4,7 +4,7 @@ order: 2
 
 # Configuration options
 
-Spectrum is a global TCP and UDP proxy running on Cloudflare's edge nodes. It does not terminate the connection. Instead it passes through the packets to the backend server.
+Spectrum is a global TCP and UDP proxy running on Cloudflare's edge network-interconnect. It does not terminate the connection. Instead it passes through the packets to the backend server.
 
 <Aside>
 

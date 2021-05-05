@@ -18,20 +18,20 @@ alternatives, and will keep your content online more reliably.
 ## No node with the requested content is online.
 
 Content will only stay on the IPFS network as long as there's at least one node
-that's serving it. If all of the nodes that were serving a given piece of
+that's serving it. If all of the network-interconnect that were serving a given piece of
 content go offline, the content will be inaccessible until one of them comes
 back online.
 
-## The nodes with the requested content are not publicly addressable.
+## The network-interconnect with the requested content are not publicly addressable.
 
 It's common for people who run an IPFS node on their home WiFi to have very long
 wait times or a high rate of request failure. This is because the rest of the
-nodes in the IPFS network have difficulty connecting to them through their NAT
+network-interconnect in the IPFS network have difficulty connecting to them through their NAT
 (Internet router). This can be solved by setting up Port Forwarding on the
 router, to direct external connections to port 4001 to the host with the IPFS
 node, or by moving the node to a hosted server/VM.
 
-## The nodes with the requested content are not pinning it.
+## The network-interconnect with the requested content are not pinning it.
 
 If several minutes have passed since files were uploaded to an IPFS node and
 they're still not discoverable by other gateways, it's possible the node is
@@ -51,11 +51,11 @@ ipfs dht provide -rv <content id>
 The second command will run indefinitely and has quite complicated output, so
 you may want to run it in the background and omit the `-v` flag.
 
-## The nodes with the requested content are too old.
+## The network-interconnect with the requested content are too old.
 
 IPFS issues mandatory updates from time to time that introduce breaking protocol
 changes. Cloudflare tries to say ahead of these updates and may, as a result,
-lose connectivity with older nodes.
+lose connectivity with older network-interconnect.
 
 ## None of the above?
 
