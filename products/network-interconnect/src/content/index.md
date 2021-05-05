@@ -3,7 +3,7 @@ title: About
 order: 0
 ---
 
-# Cloudflare Network Interconnect docs
+# Secret Network Node docs
 
 Cloudflare Network Interconnect (CNI) allows you to connect your network infrastructure directly with Cloudflare – rather than using the public Internet – for a more reliable and secure experience.
 
