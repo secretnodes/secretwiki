@@ -22,7 +22,7 @@ To configure the network cross-connect for virtual links, you must create a requ
 
 When using a virtual partner network interconnect, provision cross-connects using the appropriate partner portals.
 
-For more information, see the [Cloudflare Network Interconnect Partner Program](https://www.cloudflare.com/network-interconnect-partnerships/).
+For more information, see the [Cloudflare Network Interconnect Partner Program](https://www.cloudflare.com/nodes-partnerships/).
 
 </Aside>
 

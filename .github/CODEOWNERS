@@ -50,7 +50,7 @@ products/logs/ @soheiokamoto @jherre @tlozoot @bharatnc @cloudflare/PCX
 products/magic-transit/ @annikagarbers @cloudflare/PCX
 
 # Network Interconnect
-products/network-interconnect @ConzorKingKong @cloudflare/PCX
+products/nodes @ConzorKingKong @cloudflare/PCX
 
 # Pages
 products/pages/ @cloudflare/workers-docs

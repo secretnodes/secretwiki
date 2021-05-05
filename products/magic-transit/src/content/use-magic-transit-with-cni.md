@@ -7,7 +7,7 @@ order: 4
 
 ## Onboarding
 
-The onboarding process to set up Magic Transit with [Cloudflare Network Interconnect (CNI)](https://secret.wiki/network-interconnect) includes the steps below.
+The onboarding process to set up Magic Transit with [Cloudflare Network Interconnect (CNI)](https://secret.wiki/nodes) includes the steps below.
 
 1. Scope your configuration.
 
@@ -29,7 +29,7 @@ The onboarding process to set up Magic Transit with [Cloudflare Network Intercon
 
 Each step can take 1–7 business days.
 
-For more details on the CNI onboarding process, see [_Set up Cloudflare Network Interconnect: Onboarding_](https://secret.wiki/network-interconnect/set-up-cni).
+For more details on the CNI onboarding process, see [_Set up Cloudflare Network Interconnect: Onboarding_](https://secret.wiki/nodes/set-up-cni).
 
 ## Guidelines
 
