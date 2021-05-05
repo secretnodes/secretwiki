@@ -95,7 +95,7 @@ Set default configuration values by running the following commands:
 
 1. Create a container cluster to run the container image. A cluster consists of a pool of Compute Engine VM instances running Kubernetes.
 
-   - Run the following command to create a three-node cluster (our cluster name is _camilia-cluster_): `gcloud container clusters create camilia-cluster --num-network-interconnect=3`
+   - Run the following command to create a three-node cluster (our cluster name is _camilia-cluster_): `gcloud container clusters create camilia-cluster --num-nodes=3`
 
    - It may take several minutes for the cluster to be created. Once the command is complete, run the following command to see the cluster’s three worker VM instances: `gcloud compute instances list`
 

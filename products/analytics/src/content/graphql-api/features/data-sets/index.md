@@ -7,19 +7,19 @@ order: 2
 
 Cloudflare Analytics offers a range of data sets, including both general and product-specific data sets. Data sets use a consistent naming scheme that explicitly identifies the type of data they return:
 
-- **Domain.** Each data set is named after the domain it describes and is associated with a set of network-interconnect. Data network-interconnect are typically named after the domain they represent. Product-specific data network-interconnect incorporate the name of the relevant product, as in `loadBalancingRequests`. Network Analytics data network-interconnect incorporate the `ipFlows` label.
+- **Domain.** Each data set is named after the domain it describes and is associated with a set of nodes. Data nodes are typically named after the domain they represent. Product-specific data nodes incorporate the name of the relevant product, as in `loadBalancingRequests`. Network Analytics data nodes incorporate the `ipFlows` label.
 
-- **Aggregated data.** network-interconnect that represent aggregated data include the `Groups` suffix. For example, the `loadBalancingRequestsGroups` node represents aggregated data for Load Balancing requests. Aggregated data returns in an array of `...Group` objects. If the data represented by a node is aggregated prior to query time, the aggregation period is also specified. For example, `requests1mGroups` represents data aggregated into a collection of minute-wise roll-up reports.
+- **Aggregated data.** Nodes that represent aggregated data include the `Groups` suffix. For example, the `loadBalancingRequestsGroups` node represents aggregated data for Load Balancing requests. Aggregated data returns in an array of `...Group` objects. If the data represented by a node is aggregated prior to query time, the aggregation period is also specified. For example, `requests1mGroups` represents data aggregated into a collection of minute-wise roll-up reports.
 
-- **Raw data.** Raw data network-interconnect, such as `loadBalancingRequests`, are not aggregated and so do not incorporate the `Groups` suffix. Raw data returns in arrays containing objects of the relevant data type. For example, a query to `loadBalancingRequests` returns an array of _LoadBalancingRequest_ objects.
+- **Raw data.** Raw data nodes, such as `loadBalancingRequests`, are not aggregated and so do not incorporate the `Groups` suffix. Raw data returns in arrays containing objects of the relevant data type. For example, a query to `loadBalancingRequests` returns an array of _LoadBalancingRequest_ objects.
 
-- **Adaptive Sampling.** network-interconnect that represent data acquired using adaptive sampling incorporate the `Adaptive` suffix. (For details, see _[Sampling](/graphql-api/sampling/)_).
+- **Adaptive Sampling.** Nodes that represent data acquired using adaptive sampling incorporate the `Adaptive` suffix. (For details, see _[Sampling](/graphql-api/sampling/)_).
 
-Detailed descriptions of network-interconnect, their structure, and supported queries are available directly from the GraphQL Analytics API via **introspection** (see _[Getting started: Querying basics](https://secret.wiki/analytics/graphql-api/getting-started/#querying-basics)_). For more on using introspection to ask a GraphQL schema for information about the queries it supports, see the [GraphQL documentation](https://graphql.org/learn/introspection/).
+Detailed descriptions of nodes, their structure, and supported queries are available directly from the GraphQL Analytics API via **introspection** (see _[Getting started: Querying basics](https://secret.wiki/analytics/graphql-api/getting-started/#querying-basics)_). For more on using introspection to ask a GraphQL schema for information about the queries it supports, see the [GraphQL documentation](https://graphql.org/learn/introspection/).
 
 ## Available data sets
 
-The following data sets (and associated network-interconnect) are available in Cloudflare Analytics:
+The following data sets (and associated nodes) are available in Cloudflare Analytics:
 
 <TableWrap>
 
@@ -39,7 +39,7 @@ The following data sets (and associated network-interconnect) are available in C
 
 ## Beta data sets
 
-Beta data sets are available to Enterprise customers for testing and exploration. Do not rely on beta data network-interconnect, since they are subject to change or removal without notice.
+Beta data sets are available to Enterprise customers for testing and exploration. Do not rely on beta data nodes, since they are subject to change or removal without notice.
 
 <TableWrap>
 
@@ -50,9 +50,9 @@ Beta data sets are available to Enterprise customers for testing and exploration
 
 </TableWrap>
 
-## Deprecated data network-interconnect
+## Deprecated data nodes
 
-The following data network-interconnect are deprecated. To avoid disruption, migrate to replacement network-interconnect before the sunset date.
+The following data nodes are deprecated. To avoid disruption, migrate to replacement nodes before the sunset date.
 
 <TableWrap>
 

@@ -17,7 +17,7 @@ This article presents examples of queries you can use to populate your own dashb
 Use this workflow to build and test queries:
 
 * Install and configure the [GraphiQL](https://www.electronjs.org/apps/graphiql) app to authenticate to the Cloudflare Analytics GraphQL API. Cloudflare recommends token authentication. (See _[Configure an Analytics API token](/graphql-api/getting-started/authentication/api-token-auth/)_.)
-* Construct the queries in the GraphiQL. You can use the introspective documentation in the GraphQL client to explore the network-interconnect available. For further information about queries, refer to  _[Querying basics](/graphql-api/getting-started/querying-basics/)_.
+* Construct the queries in the GraphiQL. You can use the introspective documentation in the GraphQL client to explore the nodes available. For further information about queries, refer to  _[Querying basics](/graphql-api/getting-started/querying-basics/)_.
 * Test your queries by running them from GraphiQL or by passing them as the payload in a cURL request to the GraphQL API endpoint.
 * Use the queries in your application to provide data for your dashboard widgets.
 
@@ -44,9 +44,9 @@ header: Account and query time interval settings
 }
 ```
 
-This table lists Network Analytics data sets (network-interconnect) and the `datetimeDimension` that you should use when querying data for a given time selection.
+This table lists Network Analytics data sets (nodes) and the `datetimeDimension` that you should use when querying data for a given time selection.
 
-When you want an aggregated view of data, use the `Groups` query network-interconnect. For example, the `ipFlows1mAttacksGroups` data set represents minute-wise rollup reports of attack activity. For more detail, see [_Data sets_](/graphql-api/features/data-sets).
+When you want an aggregated view of data, use the `Groups` query nodes. For example, the `ipFlows1mAttacksGroups` data set represents minute-wise rollup reports of attack activity. For more detail, see [_Data sets_](/graphql-api/features/data-sets).
 
 <TableWrap>
 
@@ -102,7 +102,7 @@ When you want an aggregated view of data, use the `Groups` query network-interco
 
 </TableWrap>
 
-The table below lists the start and end time attributes that are valid for query network-interconnect representing different time ranges.
+The table below lists the start and end time attributes that are valid for query nodes representing different time ranges.
 
 <TableWrap>
 

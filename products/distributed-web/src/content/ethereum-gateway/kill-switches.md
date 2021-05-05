@@ -56,7 +56,7 @@ trustworthiness.
 The trust placed in consensus-based algorithms is based on the assumption that
 most people are honest, or more accurately that no sufficiently large subset of
 people can be made to collude to produce a malicious outcome. This is the
-_democratisation of trust_. In the DAO attack, a majority of network-interconnect agreed to
+_democratisation of trust_. In the DAO attack, a majority of nodes agreed to
 accept an irregular state transition. This effectively undid the damage of the
 attack, and shows how, at least in the world of blockchain, perception is
 reality. Because most people “believed" -- accepted this irregular block, it

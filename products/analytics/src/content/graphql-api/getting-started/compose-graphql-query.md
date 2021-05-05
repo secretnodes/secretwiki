@@ -35,7 +35,7 @@ To find the ID for a zone, log in to your Cloudflare account and click the site 
 
 To assist query building, the GraphiQL client has word completion. Insert your cursor in the query, in this case on the line below `zones`, and start entering a value to engage the feature. For example, when you type `firewall`, a popup menu displays the data sets that return firewall information:
 
-![firewall network-interconnect](../../static/images/graphiql-word-completion.png)
+![firewall nodes](../../static/images/graphiql-word-completion.png)
 
 The text at the bottom of the list displays a short description of the data that the node returns.
 

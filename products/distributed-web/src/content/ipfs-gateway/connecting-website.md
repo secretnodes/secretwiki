@@ -68,7 +68,7 @@ just uploading a single file you can ignore the `-r`.
 This will add your content to IPFS and give you back the hash of the directory.
 
 Now that your content is on the network, you have to make sure it stays there.
-IPFS network-interconnect periodically garbage collect any content that you haven't explicitly
+IPFS nodes periodically garbage collect any content that you haven't explicitly
 told your node you'd like to keep. To ensure that your node doesn’t garbage
 collect your content, you need to pin it to your node. This will tell your node
 to cache that content permanently.
